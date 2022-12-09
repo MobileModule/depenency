@@ -44,7 +44,7 @@ ext {
             //druid
             appUpdate             : "1.0.5",
             dimenx2               : "1.0.1",
-            mapview               : "1.0.1"
+            mapcore               : "1.0.2"
     ]
 
     dependenciesList = [
@@ -90,7 +90,7 @@ ext {
             //
             AppUpdate             : "com.github.MobileModule:AppUpdater:v${versions.appUpdate}",
             DimenX2               : "com.github.MobileModule:DruidDimenX2:v${versions.dimenx2}",
-            MapView               : "com.github.MobileModule:MapView:v${versions.mapview}"
+            MapCore               : "com.github.MobileModule:DruidMapCore:v${versions.mapcore}"
 
     ]
 }
