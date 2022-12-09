@@ -1,0 +1,78 @@
+ext {
+
+    versions = [
+            appCompat             : "1.1.0",
+            recyclerview          : "1.1.0",
+            material              : "1.1.0",
+            annotation            : "1.1.0",
+            core                  : "1.3.0",
+            coordinatorlayout     : "1.1.0",
+            constraintlayout      : "1.1.0",
+            viewpager2            : "1.0.0",
+            cameraXCore           : "1.0.0",
+            cameraX2              : "1.0.0",
+            cameraXLifeCycle      : "1.0.0",
+            cameraXView           : "1.0.0-alpha25",
+            //
+            okhttp3               : "3.12.3",
+            okhttp3Interagtion    : "4.9.0",
+            okhttp3Connection     : "3.12.3",
+            imageloader           : "1.9.5",
+            protobuf              : "3.7.1",
+            zxing                 : "3.1.0",
+            gson                  : "2.7",
+            fastjson              : "1.2.8",
+            picasso               : "2.3.4",
+            glide                 : "4.11.0",
+            //map
+            mapboxSdx             : "9.7.0",
+            mapboxTurf            : "5.5.0",
+            mapboxLocation        : "0.12.0",
+            mapboxPluginAnnotation: "0.9.0",
+            mapboxPluginMarkerView: "0.4.0",
+            googleMap             : "18.0.2",
+            googleLocation        : "18.0.0"
+    ]
+
+    dependenciesList = [
+            Appcompat             : "androidx.appcompat:appcompat:${versions.appCompat}",
+            Recyclerview          : "androidx.recyclerview:recyclerview:${versions.recyclerview}",
+            Material              : "com.google.android.material:material:${versions.material}",
+            Annotations           : "androidx.annotation:annotation:${versions.annotation}",
+            Core                  : "androidx.core:core:${versions.core}",
+            Coordinatorlayout     : "androidx.coordinatorlayout:coordinatorlayout:${versions.coordinatorlayout}",
+            Constraintlayout      : "androidx.constraintlayout:constraintlayout:${versions.constraintlayout}",
+            Viewpager2            : "androidx.viewpager2:viewpager2:${versions.viewpager2}",
+            CameraCore            : "androidx.camera:camera-core:${versions.cameraXCore}",
+            Camera2               : "androidx.camera:camera-camera2:${versions.cameraX2}",
+            CameraLifeCycle       : "androidx.camera:camera-lifecycle:${versions.cameraXLifeCycle}",
+            CameraView            : "androidx.camera:camera-view:${versions.cameraXView}",
+            Okhttp3               : "com.squareup.okhttp3:okhttp:${versions.okhttp3}",
+            Okhttp3Interagtion    : "com.github.bumptech.glide:okhttp3-integration:${versions.okhttp3Interagtion}",
+            Okhttp3Connection     : "com.squareup.okhttp3:okhttp-urlconnection:${versions.okhttp3Connection}",
+            Imageloader           : "com.nostra13.universalimageloader:universal-image-loader:${versions.imageloader}",
+            Protobuf              : "com.google.protobuf:protobuf-java:${versions.protobuf}",
+            Zxing                 : "com.google.zxing:core:${versions.zxing}",
+            Gson                  : "com.google.code.gson:gson:${versions.gson}",
+            Fastjson              : "com.alibaba:fastjson:${versions.fastjson}",
+            Picasso               : "com.squareup.picasso:picasso:${versions.picasso}",
+            Glide                 : "com.github.bumptech.glide:glide:${versions.glide}",
+            //
+            Nineoldandroids       : "com.nineoldandroids:library:2.4.0",
+            Cube                  : "in.srain.cube:clog:1.0.2",
+            VideoPlayer           : "cn.jzvd:jiaozivideoplayer:6.2.4",
+            SeekBar               : "com.zhouyou:signseekbar:1.0.6",
+            GifImage              : "pl.droidsonroids.gif:android-gif-drawable:1.2.12",
+            //
+            Mapbox                : "com.mapbox.mapboxsdk:mapbox-android-sdk:${versions.mapboxSdx}",
+            MapboxTurf            : "com.mapbox.mapboxsdk:mapbox-sdk-turf:${versions.mapboxTurf}",
+            MapboxLocation        : "com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:${versions.mapboxLocation}",
+            MapboxPluginAnnotation: "com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:${versions.mapboxPluginAnnotation}",
+            MapboxPluginMarkerView: "com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:${versions.mapboxPluginMarkerView}",
+            //
+            GoogleMap             : "com.google.android.gms:play-services-maps:${versions.googleMap}",
+            GoogleLocation        : "com.google.android.gms:play-services-location:${versions.googleLocation}",
+            //
+            Mp4Parse              : "com.googlecode.mp4parser:isoparser:1.1.21"
+    ]
+}
