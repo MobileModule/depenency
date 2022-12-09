@@ -1,4 +1,13 @@
 ext {
+    androidVersions = [
+            applicationId    : "com.druid.bird",
+            versionName      : "2.12.10.18",
+            versionCode      : 468,
+            minSdkVersion    : 21,
+            targetSdkVersion : 31,
+            buildToolsVersion: "29.0.3",
+            compileSdkVersion: 31,
+    ]
 
     versions = [
             appCompat             : "1.1.0",
