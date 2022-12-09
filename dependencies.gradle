@@ -89,7 +89,7 @@ ext {
             Mp4Parse              : "com.googlecode.mp4parser:isoparser:1.1.21",
             //
             AppUpdate             : "com.github.MobileModule:AppUpdater:v${versions.appUpdate}",
-            DimenX2               : "com.github.MobileModule:DruidDimenX2:${versions.dimenx2}",
-            MapView               : "com.github.MobileModule:MapView:${versions.mapview}"
+            DimenX2               : "com.github.MobileModule:DruidDimenX2:v${versions.dimenx2}",
+            MapView               : "com.github.MobileModule:MapView:v${versions.mapview}"
     ]
 }
