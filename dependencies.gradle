@@ -44,7 +44,35 @@ ext {
             mapcorelib            : "1.0.10",
             mapboxlib             : "1.0.10",
             mapgooglelib          : "1.0.10",
-            googleclusterlib      : "1.0.10"
+            googleclusterlib      : "1.0.10",
+            sdcard                : "1.0.1",
+            table                 : "1.0.1",
+            swipeRecyclerview     : "1.0.1",
+            freshView             : "1.0.1",
+            timebar               : "1.0.1",
+            timechart             : "1.0.1",
+            timepaint             : "1.0.1",
+            qrcodeOpenCV          : "1.0.1",
+            qrcodeLib             : "1.0.1",
+            qrcodeScanning        : "1.0.1",
+            qrcodeCamera          : "1.0.1",
+            socketClient          : "1.0.1",
+            socketCommon          : "1.0.1",
+            socketCore            : "1.0.1",
+            //
+            otaLib                : "1.0.1",
+            nordicLib             : "1.0.1",
+            scannerLib            : "1.0.1",
+            protocolLib           : "1.0.1",
+            applogLib             : "1.0.1",
+            blutoothsppLib        : "1.0.1",
+            blesppLib             : "1.0.1",
+            bleactLib             : "1.0.1",
+            //
+            achart                : "1.0.1",
+            colorpicker           : "1.0.1",
+            foldermanager         : "1.0.1",
+            imageviewer           : "1.0.1"
     ]
 
     dependenciesList = [
@@ -93,6 +121,37 @@ ext {
             MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapcorelib}",
             MapBox                : "com.github.MobileModule.MapView:mapboxlib:v${versions.mapboxlib}",
             MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapgooglelib}",
-            GoogleCluster         : "com.github.MobileModule.MapView:googleclusterlib:v${versions.googleclusterlib}"
+            GoogleCluster         : "com.github.MobileModule.MapView:googleclusterlib:v${versions.googleclusterlib}",
+            SDCard                : "com.github.MobileModule:SDCard:v${versions.sdcard}",
+            TableView             : "com.github.MobileModule:TableView:v${versions.table}",
+            FreshView             : "com.github.MobileModule.RefreshView:refreshlib:v${versions.freshView}",
+            SwipeRecyclerview     : "com.github.MobileModule.RefreshView:recyclerview-swipelib:v${versions.swipeRecyclerview}",
+            //
+            TimeBar               : "com.github.MobileModule.TimeMark:mark-timebar:v${versions.timebar}",
+            TimeChart             : "com.github.MobileModule.TimeMark:mark-timechart:v${versions.timechart}",
+            TimePaint             : "com.github.MobileModule.TimeMark:mark-timepaint:v${versions.timepaint}",
+            //
+            QrCodeOpenCV          : "com.github.MobileModule.QRLibs:qrcode-opencvlib:v${versions.qrcodeOpenCV}",
+            QrCodeLib             : "com.github.MobileModule.QRLibs:qrcodelib:v${versions.qrcodeLib}",
+            QrCodeScanning        : "com.github.MobileModule.QRLibs:qrcode-scanninglib:v${versions.qrcodeScanning}",
+            QrCodeCamera          : "com.github.MobileModule.QRLibs:qrcode-cameralib:v${versions.qrcodeCamera}",
+            //
+            SocketClient          : "com.github.MobileModule.Socket:socket-clentlib:v${versions.qrcodeCamera}",
+            SocketCommon          : "com.github.MobileModule.Socket:socket-commonlib:v${versions.qrcodeCamera}",
+            SocketCore            : "com.github.MobileModule.Socket:socket-corelib:v${versions.qrcodeCamera}",
+            //
+            Ota                   : "com.github.MobileModule.DruidBle:otalib:v${versions.qrcodeCamera}",
+            Nordic                : "com.github.MobileModule.DruidBle:nordiclib:v${versions.qrcodeCamera}",
+            Scanner               : "com.github.MobileModule.DruidBle:scannerlib:v${versions.qrcodeCamera}",
+            Protocol              : "com.github.MobileModule.DruidBle:protocollib:v${versions.qrcodeCamera}",
+            AppLog                : "com.github.MobileModule.DruidBle:apploglib:v${versions.qrcodeCamera}",
+            Blutooth              : "com.github.MobileModule.DruidBle:blutoothspplib:v${versions.qrcodeCamera}",
+            Ble                   : "com.github.MobileModule.DruidBle:blespplib:v${versions.qrcodeCamera}",
+            BleAct                : "com.github.MobileModule.DruidBle:bleactlib:v${versions.qrcodeCamera}",
+            //
+            Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
+            ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
+            FolderManager         : "com.github.MobileModule:FolderManager:v${versions.foldermanager}",
+            ImageViewer           : "com.github.MobileModule:ImageViewer:v${versions.imageviewer}"
     ]
 }
