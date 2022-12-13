@@ -47,15 +47,19 @@ ext {
             googleclusterlib      : "1.0.10",
             sdcard                : "1.0.1",
             table                 : "1.0.1",
+            //
             swipeRecyclerview     : "1.0.1",
             freshView             : "1.0.1",
+            //
             timebar               : "1.0.1",
             timechart             : "1.0.1",
             timepaint             : "1.0.1",
+            //
             qrcodeOpenCV          : "1.0.1",
             qrcodeLib             : "1.0.1",
             qrcodeScanning        : "1.0.1",
             qrcodeCamera          : "1.0.1",
+            //
             socketClient          : "1.0.1",
             socketCommon          : "1.0.1",
             socketCore            : "1.0.1",
@@ -72,7 +76,17 @@ ext {
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
             foldermanager         : "1.0.1",
-            imageviewer           : "1.0.1"
+            imageviewer           : "1.0.1",
+            navigator             : "1.0.1",
+            viewguid              : "1.0.2",
+            locallan              : "1.0.1",
+            selectphotots         : "1.0.1",
+            pickerview            : "1.0.1",
+            ander                 : "1.0.1",
+            mpchart               : "1.0.1",
+            snackbar              : "1.0.1",
+            nohttp                : "1.0.1",
+            druidzxing            : "1.0.1"
     ]
 
     dependenciesList = [
@@ -152,6 +166,16 @@ ext {
             Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
             ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
             FolderManager         : "com.github.MobileModule:FolderManager:v${versions.foldermanager}",
-            ImageViewer           : "com.github.MobileModule:ImageViewer:v${versions.imageviewer}"
+            ImageViewer           : "com.github.MobileModule:ImageViewer:v${versions.imageviewer}",
+            Navigator             : "com.github.MobileModule:Navigator:v${versions.navigator}",
+            ViewGuid              : "com.github.MobileModule:ViewGuid:v${versions.viewguid}",
+            LocalLan              : "com.github.MobileModule.LocalLan:locallan:v${versions.locallan}",
+            SelectPhotos          : "com.github.MobileModule.LocalLan:selectphotos:v${versions.selectphotots}",
+            PickerView            : "com.github.MobileModule:PickerView:v${versions.pickerview}",
+            Ander                 : "com.github.MobileModule:Ander:v${versions.ander}",
+            MPChart               : "com.github.MobileModule:MPChart:v${versions.mpchart}",
+            SnackBar              : "com.github.MobileModule:SnackBar:v${versions.snackbar}",
+            NoHttp                : "com.github.MobileModule:NoHttp:v${versions.nohttp}",
+            DruidZxing            : "com.github.MobileModule:Zxing:v${versions.druidzxing}"
     ]
 }
