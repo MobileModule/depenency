@@ -41,10 +41,10 @@ ext {
             //druid
             appUpdate             : "1.0.5",
             dimenx2               : "1.0.1",
-            mapcorelib            : "1.0.10",
-            mapboxlib             : "1.0.10",
-            mapgooglelib          : "1.0.10",
-            googleclusterlib      : "1.0.10",
+            mapcorelib            : "1.0.11",
+            mapboxlib             : "1.0.11",
+            mapgooglelib          : "1.0.11",
+            googleclusterlib      : "1.0.11",
             sdcard                : "1.0.1",
             table                 : "1.0.1",
             //
