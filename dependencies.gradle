@@ -105,7 +105,7 @@ ext {
             Fastjson              : "com.alibaba:fastjson:${versions.fastjson}",
             Picasso               : "com.squareup.picasso:picasso:${versions.picasso}",
             Glide                 : "com.github.bumptech.glide:glide:${versions.glide}",
-            GreenDao              : "org.greenrobot:greendao-api:${versions.greendao}",
+            GreenDao              : "org.greenrobot:greendao:${versions.greendao}",
             //
             Nineoldandroids       : "com.nineoldandroids:library:2.4.0",
             Cube                  : "in.srain.cube:clog:1.0.2",
