@@ -63,7 +63,7 @@ ext {
             //
             socket                : "1.0.1",
             //
-            belLib                : "1.0.9",
+            belLib                : "1.0.10",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
