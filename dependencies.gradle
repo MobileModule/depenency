@@ -42,10 +42,7 @@ ext {
             //druid
             appUpdate             : "1.0.5",
             dimenx2               : "1.0.1",
-            mapcorelib            : "1.0.15",
-            mapboxlib             : "1.0.15",
-            mapgooglelib          : "1.0.15",
-            googleclusterlib      : "1.0.15",
+            mapview               : "1.0.16",
             sdcard                : "1.0.1",
             table                 : "1.0.1",
             //
@@ -63,7 +60,7 @@ ext {
             //
             socket                : "1.0.1",
             //
-            belLib                : "1.0.8",
+            belLib                : "1.0.10",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
@@ -126,10 +123,10 @@ ext {
             //
             AppUpdate             : "com.github.MobileModule:AppUpdater:v${versions.appUpdate}",
             DimenX2               : "com.github.MobileModule:DruidDimenX2:v${versions.dimenx2}",
-            MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapcorelib}",
-            MapBox                : "com.github.MobileModule.MapView:mapboxlib:v${versions.mapboxlib}",
-            MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapgooglelib}",
-            GoogleCluster         : "com.github.MobileModule.MapView:googleclusterlib:v${versions.googleclusterlib}",
+            MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapview}",
+            MapBox                : "com.github.MobileModule.MapView:mapboxlib:v${versions.mapview}",
+            MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapview}",
+            GoogleCluster         : "com.github.MobileModule.MapView:googleclusterlib:v${versions.mapview}",
             SDCard                : "com.github.MobileModule:SDCard:v${versions.sdcard}",
             TableView             : "com.github.MobileModule:TableView:v${versions.table}",
             FreshView             : "com.github.MobileModule.RefreshView:refreshlib:v${versions.freshView}",
