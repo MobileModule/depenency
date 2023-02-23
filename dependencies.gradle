@@ -9,11 +9,14 @@ ext {
     versions = [
             appCompat             : "1.1.0",
             recyclerview          : "1.1.0",
+            cardview              : "1.0.0",
+            interpolator          : "1.0.0",
             material              : "1.1.0",
             annotation            : "1.1.0",
             core                  : "1.3.0",
             coordinatorlayout     : "1.1.0",
             constraintlayout      : "1.1.0",
+            viewpager             : "1.0.0",
             viewpager2            : "1.0.0",
             cameraXCore           : "1.0.0",
             cameraX2              : "1.0.0",
@@ -60,7 +63,7 @@ ext {
             //
             socket                : "1.0.1",
             //
-            belLib                : "1.0.15",
+            belLib                : "1.0.19",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
@@ -76,7 +79,8 @@ ext {
             snackbar              : "1.0.1",
             nohttp                : "1.0.1",
             druidzxing            : "1.0.1",
-            tts                   : "1.0.1"
+            tts                   : "1.0.1",
+            exifinterface         : "1.3.2"
     ]
 
     dependenciesList = [
@@ -87,6 +91,10 @@ ext {
             Core                  : "androidx.core:core:${versions.core}",
             Coordinatorlayout     : "androidx.coordinatorlayout:coordinatorlayout:${versions.coordinatorlayout}",
             Constraintlayout      : "androidx.constraintlayout:constraintlayout:${versions.constraintlayout}",
+            Interpolator          : "androidx.interpolator:interpolator:1.0.0",
+            Cardview              : "androidx.cardview:cardview:${versions.cardview}",
+            Interpolator          : "androidx.interpolator:interpolator:${versions.interpolator}",
+            Viewpager             : "androidx.viewpager:viewpager:${versions.viewpager}",
             Viewpager2            : "androidx.viewpager2:viewpager2:${versions.viewpager2}",
             CameraCore            : "androidx.camera:camera-core:${versions.cameraXCore}",
             Camera2               : "androidx.camera:camera-camera2:${versions.cameraX2}",
@@ -168,6 +176,9 @@ ext {
             SnackBar              : "com.github.MobileModule:SnackBar:v${versions.snackbar}",
             NoHttp                : "com.github.MobileModule:NoHttp:v${versions.nohttp}",
             DruidZxing            : "com.github.MobileModule:Zxing:v${versions.druidzxing}",
-            TTS                   : "com.github.MobileModule:MscLib:v${versions.tts}"
+            TTS                   : "com.github.MobileModule:MscLib:v${versions.tts}",
+            RN                    : "com.facebook.react:react-native:+",
+            RNJS                  : "org.webkit:android-jsc:+",
+            Exifinterface         : "androidx.exifinterface:exifinterface:${versions.exifinterface}",
     ]
 }
