@@ -42,7 +42,7 @@ ext {
             //druid
             appUpdate             : "1.0.5",
             dimenx2               : "1.0.1",
-            mapview               : "1.0.16",
+            mapview               : "1.0.18",
             sdcard                : "1.0.1",
             table                 : "1.0.1",
             //
