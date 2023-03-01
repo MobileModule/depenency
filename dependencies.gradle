@@ -52,9 +52,7 @@ ext {
             swipeRecyclerview     : "1.0.1",
             freshView             : "1.0.1",
             //
-            timebar               : "1.0.1",
-            timechart             : "1.0.1",
-            timepaint             : "1.0.1",
+            timebar               : "1.0.3",
             //
             qrcodeOpenCV          : "1.0.1",
             qrcodeLib             : "1.0.1",
@@ -63,7 +61,7 @@ ext {
             //
             socket                : "1.0.1",
             //
-            belLib                : "1.1.0",
+            belLib                : "1.1.5",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
@@ -78,7 +76,7 @@ ext {
             mpchart               : "1.0.1",
             snackbar              : "1.0.1",
             nohttp                : "1.0.1",
-            druidhttp             : "1.0.1",
+            druidhttp             : "1.0.5",
             druidzxing            : "1.0.1",
             tts                   : "1.0.1",
             exifinterface         : "1.3.2"
@@ -141,9 +139,10 @@ ext {
             FreshView             : "com.github.MobileModule.RefreshView:refreshlib:v${versions.freshView}",
             SwipeRecyclerview     : "com.github.MobileModule.RefreshView:recyclerview-swipelib:v${versions.swipeRecyclerview}",
             //
+            TimeCore              : "com.github.MobileModule.TimeMark:mark-timecore:v${versions.timebar}",
             TimeBar               : "com.github.MobileModule.TimeMark:mark-timebar:v${versions.timebar}",
-            TimeChart             : "com.github.MobileModule.TimeMark:mark-timechart:v${versions.timechart}",
-            TimePaint             : "com.github.MobileModule.TimeMark:mark-timepaint:v${versions.timepaint}",
+            TimeChart             : "com.github.MobileModule.TimeMark:mark-timechart:v${versions.timebar}",
+            TimePaint             : "com.github.MobileModule.TimeMark:mark-timepaint:v${versions.timebar}",
             //
             QrCodeOpenCV          : "com.github.MobileModule.QRLibs:qrcode-opencvlib:v${versions.qrcodeOpenCV}",
             QrCodeLib             : "com.github.MobileModule.QRLibs:qrcodelib:v${versions.qrcodeLib}",
