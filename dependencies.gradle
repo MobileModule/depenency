@@ -45,6 +45,7 @@ ext {
             //druid
             appUpdate             : "1.0.5",
             dimenx2               : "1.0.1",
+            dimenx3               : "1.0.1",
             mapview               : "1.0.16",
             sdcard                : "1.0.1",
             table                 : "1.0.1",
@@ -130,6 +131,7 @@ ext {
             //
             AppUpdate             : "com.github.MobileModule:AppUpdater:v${versions.appUpdate}",
             DimenX2               : "com.github.MobileModule:DruidDimenX2:v${versions.dimenx2}",
+            DimenX3               : "com.github.MobileModule:DruidDimenX3:v${versions.dimenx3}",
             MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapview}",
             MapBox                : "com.github.MobileModule.MapView:mapboxlib:v${versions.mapview}",
             MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapview}",
