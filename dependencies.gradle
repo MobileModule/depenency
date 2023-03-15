@@ -93,7 +93,7 @@ ext {
             mpchart               : "1.0.1",
             snackbar              : "1.0.1",
             nohttp                : "1.0.1",
-            druidhttp             : "1.0.7",
+            druidhttp             : "1.0.8",
             druidzxing            : "1.0.1",
             tts                   : "1.0.1",
             exifinterface         : "1.3.2"
