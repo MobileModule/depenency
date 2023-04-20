@@ -63,13 +63,13 @@ ext {
             appUpdate             : "1.0.5",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "1.1.5",
+            mapview               : "1.1.7",
             sdcard                : "1.0.1",
             table                 : "1.0.1",
             //
             freshView             : "1.0.2",
             //
-            timebar               : "1.0.4",
+            timebar               : "1.0.6",
             //
             qrcodeOpenCV          : "1.0.1",
             qrcodeLib             : "1.0.1",
