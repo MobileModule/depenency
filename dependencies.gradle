@@ -28,7 +28,7 @@ ext {
             navigationFragmentKtx : "2.3.5",
             navigationUiKtx       : "2.3.5",
             //kotlin
-            kotlin                : "1.7.10",
+            kotlin                : "1.7.20",
             //lifecycle
             lifecycleRuntimeKtx   : "2.3.0",
             lifecycleCommonJava8  : "2.2.0",
