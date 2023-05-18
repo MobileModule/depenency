@@ -63,7 +63,7 @@ ext {
             appUpdate             : "1.0.5",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "1.2.0",
+            mapview               : "1.2.1",
             sdcard                : "1.0.1",
             table                 : "1.0.1",
             //
@@ -78,7 +78,7 @@ ext {
             //
             socket                : "1.0.1",
             //
-            belLib                : "1.2.7",
+            belLib                : "1.2.9",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
