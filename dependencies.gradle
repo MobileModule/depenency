@@ -80,6 +80,8 @@ ext {
             //
             belLib                : "1.2.9",
             //
+            ktmvvm                : "1.0.1",
+            //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
             foldermanager         : "1.0.1",
@@ -196,6 +198,8 @@ ext {
             Blutooth              : "com.github.MobileModule.DruidBle:blutoothspplib:v${versions.belLib}",
             Ble                   : "com.github.MobileModule.DruidBle:blespplib:v${versions.belLib}",
             BleAct                : "com.github.MobileModule.DruidBle:bleactlib:v${versions.belLib}",
+            //
+            KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
             //
             Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
             ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
