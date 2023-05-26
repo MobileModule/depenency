@@ -99,7 +99,8 @@ ext {
             druidzxing            : "1.0.1",
             tts                   : "1.0.1",
             exifinterface         : "1.3.2",
-            daolib                : "1.0.3"
+            daolib                : "1.0.3",
+            batterytimeline       : "1.0.1",
     ]
 
     dependenciesList = [
@@ -220,6 +221,7 @@ ext {
             RN                    : "com.facebook.react:react-native:+",
             RNJS                  : "org.webkit:android-jsc:+",
             Exifinterface         : "androidx.exifinterface:exifinterface:${versions.exifinterface}",
-            DaoLib                : "com.github.MobileModule:DruidDao:v${versions.daolib}"
+            DaoLib                : "com.github.MobileModule:DruidDao:v${versions.daolib}",
+            BatteryTimeLine       : "com.github.MobileModule:batterytimeline:v${versions.batterytimeline}"
     ]
 }
