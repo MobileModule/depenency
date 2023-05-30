@@ -80,6 +80,8 @@ ext {
             //
             belLib                : "1.3.0",
             //
+            ktmvvm                : "1.0.1",
+            //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
             foldermanager         : "1.0.1",
@@ -97,7 +99,8 @@ ext {
             druidzxing            : "1.0.1",
             tts                   : "1.0.1",
             exifinterface         : "1.3.2",
-            daolib                : "1.0.3"
+            daolib                : "1.0.3",
+            batterytimeline       : "1.0.1",
     ]
 
     dependenciesList = [
@@ -197,6 +200,8 @@ ext {
             Ble                   : "com.github.MobileModule.DruidBle:blespplib:v${versions.belLib}",
             BleAct                : "com.github.MobileModule.DruidBle:bleactlib:v${versions.belLib}",
             //
+            KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
+            //
             Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
             ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
             FolderManager         : "com.github.MobileModule:FolderManager:v${versions.foldermanager}",
@@ -216,6 +221,7 @@ ext {
             RN                    : "com.facebook.react:react-native:+",
             RNJS                  : "org.webkit:android-jsc:+",
             Exifinterface         : "androidx.exifinterface:exifinterface:${versions.exifinterface}",
-            DaoLib                : "com.github.MobileModule:DruidDao:v${versions.daolib}"
+            DaoLib                : "com.github.MobileModule:DruidDao:v${versions.daolib}",
+            BatteryTimeLine       : "com.github.MobileModule:batterytimeline:v${versions.batterytimeline}"
     ]
 }
