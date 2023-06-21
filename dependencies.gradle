@@ -76,9 +76,9 @@ ext {
             qrcodeScanning        : "1.0.1",
             qrcodeCamera          : "1.0.1",
             //
-            socket                : "1.0.1",
+            socket                : "1.0.2",
             //
-            belLib                : "1.3.0",
+            belLib                : "1.3.6",
             //
             ktmvvm                : "1.0.1",
             //
