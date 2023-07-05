@@ -69,7 +69,7 @@ ext {
             //
             freshView             : "1.0.2",
             //
-            timebar               : "1.0.6",
+            timebar               : "1.0.7",
             //
             qrcodeOpenCV          : "1.0.1",
             qrcodeLib             : "1.0.1",
