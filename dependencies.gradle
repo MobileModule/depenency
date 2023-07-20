@@ -8,7 +8,7 @@ ext {
 
     versions = [
             appCompat             : "1.1.0",
-            recyclerview          : "1.1.0",
+            recyclerview          : "1.2.1",
             cardview              : "1.0.0",
             interpolator          : "1.0.0",
             material              : "1.1.0",
@@ -82,7 +82,7 @@ ext {
             //
             socket                : "1.0.2",
             //
-            belLib                : "1.3.6",
+            belLib                : "1.3.9",
             //
             ktmvvm                : "1.0.1",
             //
@@ -156,7 +156,7 @@ ext {
             Cube                  : "in.srain.cube:clog:1.0.2",
             VideoPlayer           : "cn.jzvd:jiaozivideoplayer:6.2.4",
             SeekBar               : "com.zhouyou:signseekbar:1.0.6",
-            GifImage              : "pl.droidsonroids.gif:android-gif-drawable:1.2.12",
+            GifImage              : "pl.droidsonroids.gif:android-gif-drawable:1.2.27",
             //
             MapboxV9              : "com.mapbox.mapboxsdk:mapbox-android-sdk:${versions.mapboxSdxV9}",
             MapboxTurf            : "com.mapbox.mapboxsdk:mapbox-sdk-turf:${versions.mapboxTurf}",
