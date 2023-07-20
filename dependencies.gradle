@@ -67,7 +67,7 @@ ext {
             appUpdate             : "1.0.5",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "1.5.1",//1.2.1[稳定版]
+            mapview               : "2.0.1",//"1.5.1",//1.2.1[稳定版]
             sdcard                : "1.0.1",
             table                 : "1.0.1",
             //
@@ -99,7 +99,7 @@ ext {
             mpchart               : "1.0.1",
             snackbar              : "1.0.1",
             nohttp                : "1.0.1",
-            druidhttp             : "1.0.9",
+            druidhttp             : "1.1.3",
             druidzxing            : "1.0.1",
             tts                   : "1.0.1",
             exifinterface         : "1.3.2",
@@ -175,7 +175,7 @@ ext {
             DimenX2               : "com.github.MobileModule:DruidDimenX2:v${versions.dimenx2}",
             DimenX3               : "com.github.MobileModule:DruidDimenX3:v${versions.dimenx3}",
             MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapview}",
-            MapBox                : "com.github.MobileModule.MapView:mapboxlib:v${versions.mapview}",
+            MapBox                : "com.github.MobileModule.MapView:mapboxktlib:v${versions.mapview}",
             MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapview}",
             GoogleCluster         : "com.github.MobileModule.MapView:googleclusterlib:v${versions.mapview}",
             SDCard                : "com.github.MobileModule:SDCard:v${versions.sdcard}",
