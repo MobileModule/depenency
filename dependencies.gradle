@@ -52,6 +52,7 @@ ext {
             picasso               : "2.3.4",
             glide                 : "4.11.0",
             //mapbox v9
+            locationtech          : "1.17.0",
             mapboxSdxV9           : "9.7.0",
             mapboxTurf            : "5.4.1",
             mapboxLocation        : "0.12.0",
@@ -158,6 +159,7 @@ ext {
             SeekBar               : "com.zhouyou:signseekbar:1.0.6",
             GifImage              : "pl.droidsonroids.gif:android-gif-drawable:1.2.27",
             //
+            LocationTech          : "org.locationtech.jts:jts-core:${versions.locationtech}",
             MapboxV9              : "com.mapbox.mapboxsdk:mapbox-android-sdk:${versions.mapboxSdxV9}",
             MapboxTurf            : "com.mapbox.mapboxsdk:mapbox-sdk-turf:${versions.mapboxTurf}",
             MapboxLocation        : "com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:${versions.mapboxLocation}",
