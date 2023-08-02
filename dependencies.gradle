@@ -78,7 +78,7 @@ ext {
             //
             socket                : "1.0.2",
             //
-            belLib                : "1.4.0",
+            belLib                : "1.4.1",
             //
             ktmvvm                : "1.0.1",
             //
