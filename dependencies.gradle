@@ -179,7 +179,7 @@ ext {
             MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapview}",
             MapBox                : "com.github.MobileModule.MapView:mapboxktlib:v${versions.mapview}",
             MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapview}",
-            GoogleCluster         : "com.github.MobileModule.MapView:googleclusterlib:v${versions.mapview}",
+            GoogleUtils           : "com.github.MobileModule.MapView:googleutilslib:v${versions.mapview}",
             SDCard                : "com.github.MobileModule:SDCard:v${versions.sdcard}",
             TableView             : "com.github.MobileModule:TableView:v${versions.table}",
             FreshView             : "com.github.MobileModule.RefreshView:refreshlib:v${versions.freshView}",
