@@ -1,9 +1,9 @@
 ext {
     androidVersions = [
             minSdkVersion    : 21,
-            targetSdkVersion : 31,
+            targetSdkVersion : 33,
             buildToolsVersion: "30.0.3",
-            compileSdkVersion: 31,
+            compileSdkVersion: 33,
     ]
 
     versions = [
@@ -60,7 +60,7 @@ ext {
             googleMap             : "18.0.2",
             googleLocation        : "18.0.0",
             //druid
-            appUpdate             : "1.0.5",
+            appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
             mapview               : "1.5.2",//1.2.1[稳定版]
@@ -88,8 +88,7 @@ ext {
             imageviewer           : "1.0.1",
             navigator             : "1.0.1",
             viewguid              : "1.0.2",
-            locallan              : "1.0.1",
-            selectphotots         : "1.0.1",
+            locallan              : "1.0.4",
             pickerview            : "1.0.1",
             ander                 : "1.0.1",
             mpchart               : "1.0.1",
@@ -209,7 +208,7 @@ ext {
             Navigator             : "com.github.MobileModule:Navigator:v${versions.navigator}",
             ViewGuid              : "com.github.MobileModule:ViewGuid:v${versions.viewguid}",
             LocalLan              : "com.github.MobileModule.LocalLan:locallan:v${versions.locallan}",
-            SelectPhotos          : "com.github.MobileModule.LocalLan:selectphotos:v${versions.selectphotots}",
+            SelectPhotos          : "com.github.MobileModule.LocalLan:selectphotos:v${versions.locallan}",
             PickerView            : "com.github.MobileModule:PickerView:v${versions.pickerview}",
             Ander                 : "com.github.MobileModule:Ander:v${versions.ander}",
             MPChart               : "com.github.MobileModule:MPChart:v${versions.mpchart}",
