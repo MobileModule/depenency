@@ -65,7 +65,7 @@ ext {
             googleMap             : "18.1.0",
             googleLocation        : "18.0.0",
             //druid
-            appUpdate             : "1.0.6",
+            appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
             mapview               : "2.1.1",//"1.5.1",//1.2.1[稳定版]
@@ -93,7 +93,7 @@ ext {
             imageviewer           : "1.0.1",
             navigator             : "1.0.1",
             viewguid              : "1.0.2",
-            locallan              : "1.0.3",
+            locallan              : "1.0.4",
             pickerview            : "1.0.1",
             ander                 : "1.0.1",
             mpchart               : "1.0.1",
