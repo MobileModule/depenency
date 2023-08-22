@@ -51,19 +51,24 @@ ext {
             fastjson              : "1.2.8",
             picasso               : "2.3.4",
             glide                 : "4.11.0",
-            //map
-            mapboxSdx             : "9.7.0",
-            mapboxTurf            : "5.3.0",
+            //mapbox v9
+            locationtech          : "1.17.0",
+            mapboxSdxV9           : "9.7.0",
+            mapboxTurf            : "5.4.1",
             mapboxLocation        : "0.12.0",
             mapboxPluginAnnotation: "0.9.0",
             mapboxPluginMarkerView: "0.4.0",
-            googleMap             : "18.0.2",
+            //mapbox v10
+            mapboxSdxV10          : "10.13.0",
+            mapboxJavaServices    : "5.4.1",
+            //google map
+            googleMap             : "18.1.0",
             googleLocation        : "18.0.0",
             //druid
             appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "1.5.2",//1.2.1[稳定版]
+            mapview               : "2.1.1", //"1.5.2"[稳定版换key],//1.2.1[稳定版]
             sdcard                : "1.0.1",
             table                 : "1.0.1",
             //
@@ -153,11 +158,14 @@ ext {
             SeekBar               : "com.zhouyou:signseekbar:1.0.6",
             GifImage              : "pl.droidsonroids.gif:android-gif-drawable:1.2.27",
             //
-            Mapbox                : "com.mapbox.mapboxsdk:mapbox-android-sdk:${versions.mapboxSdx}",
+            LocationTech          : "org.locationtech.jts:jts-core:${versions.locationtech}",
+            MapboxV9              : "com.mapbox.mapboxsdk:mapbox-android-sdk:${versions.mapboxSdxV9}",
             MapboxTurf            : "com.mapbox.mapboxsdk:mapbox-sdk-turf:${versions.mapboxTurf}",
             MapboxLocation        : "com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:${versions.mapboxLocation}",
             MapboxPluginAnnotation: "com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:${versions.mapboxPluginAnnotation}",
             MapboxPluginMarkerView: "com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:${versions.mapboxPluginMarkerView}",
+            //
+            MapboxV10             : "com.mapbox.maps:android:${versions.mapboxSdxV10}",
             //
             GoogleMap             : "com.google.android.gms:play-services-maps:${versions.googleMap}",
             GoogleLocation        : "com.google.android.gms:play-services-location:${versions.googleLocation}",
@@ -168,9 +176,9 @@ ext {
             DimenX2               : "com.github.MobileModule:DruidDimenX2:v${versions.dimenx2}",
             DimenX3               : "com.github.MobileModule:DruidDimenX3:v${versions.dimenx3}",
             MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapview}",
-            MapBox                : "com.github.MobileModule.MapView:mapboxlib:v${versions.mapview}",
+            MapBox                : "com.github.MobileModule.MapView:mapboxktlib:v${versions.mapview}",
             MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapview}",
-            GoogleCluster         : "com.github.MobileModule.MapView:googleclusterlib:v${versions.mapview}",
+            GoogleUtils           : "com.github.MobileModule.MapView:googleutilslib:v${versions.mapview}",
             SDCard                : "com.github.MobileModule:SDCard:v${versions.sdcard}",
             TableView             : "com.github.MobileModule:TableView:v${versions.table}",
             FreshView             : "com.github.MobileModule.RefreshView:refreshlib:v${versions.freshView}",
