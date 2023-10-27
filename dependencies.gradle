@@ -27,6 +27,7 @@ ext {
             fragmentKtx           : "1.3.1",
             navigationFragmentKtx : "2.3.5",
             navigationUiKtx       : "2.3.5",
+            leaks                 : "2.12",
             //kotlin
             kotlin                : "1.7.20",
             //lifecycle
@@ -68,7 +69,7 @@ ext {
             appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "2.1.4",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
+            mapview               : "2.2.0",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
             sdcard                : "1.0.1",
             table                 : "1.0.1",
             //
@@ -83,7 +84,7 @@ ext {
             //
             socket                : "1.0.2",
             //
-            belLib                : "1.4.5",//1.3.9
+            belLib                : "1.5.1",//1.4.6
             //
             ktmvvm                : "1.0.1",
             //
@@ -105,7 +106,10 @@ ext {
             exifinterface         : "1.3.2",
             daolib                : "1.0.3",
             batterytimeline       : "1.0.1",
-            router                : "1.0.6"
+            router                : "1.0.6",
+            blechart              : "1.0.1",
+            blechartv2            : "1.0.1",
+            blecompass            : "1.0.1"
     ]
 
     dependenciesList = [
@@ -231,6 +235,10 @@ ext {
             Exifinterface         : "androidx.exifinterface:exifinterface:${versions.exifinterface}",
             DaoLib                : "com.github.MobileModule:DruidDao:v${versions.daolib}",
             BatteryTimeLine       : "com.github.MobileModule:batterytimeline:v${versions.batterytimeline}",
-            Router                : "com.github.MobileModule:arouter:v${versions.router}"
+            Router                : "com.github.MobileModule:arouter:v${versions.router}",
+            BleChart              : "com.github.MobileModule:FindChart:v${versions.blechart}",
+            BleChartV2            : "com.github.MobileModule:FindChartV2:v${versions.blechartv2}",
+            BleCompass            : "com.github.MobileModule:FindDiraction:v${versions.blecompass}",
+            LeakCanary            : "com.squareup.leakcanary:leakcanary-android:${versions.leaks}"
     ]
 }
