@@ -108,7 +108,7 @@ ext {
             batterytimeline       : "1.0.1",
             router                : "1.0.6",
             blechart              : "1.0.1",
-            blechartv2            : "1.0.1",
+            blechartv2            : "1.0.3",
             blecompass            : "1.0.1"
     ]
 
