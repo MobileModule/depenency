@@ -84,7 +84,7 @@ ext {
             //
             socket                : "1.0.2",
             //
-            belLib                : "1.5.1",//1.4.6
+            belLib                : "1.6.1",//1.5.1->1.5.7
             //
             ktmvvm                : "1.0.1",
             //
@@ -108,7 +108,7 @@ ext {
             batterytimeline       : "1.0.1",
             router                : "1.0.6",
             blechart              : "1.0.1",
-            blechartv2            : "1.0.1",
+            blechartv2            : "1.0.3",
             blecompass            : "1.0.1"
     ]
 
