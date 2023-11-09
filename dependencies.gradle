@@ -69,9 +69,10 @@ ext {
             appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "2.2.0",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
+            mapview               : "2.2.3",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
             sdcard                : "1.0.1",
             table                 : "1.0.1",
+
             //
             freshView             : "1.0.4",
             //
@@ -84,7 +85,7 @@ ext {
             //
             socket                : "1.0.2",
             //
-            belLib                : "1.6.1",//1.5.1->1.5.7
+            belLib                : "1.6.5",//1.5.1->1.6.1->1.6.5
             //
             ktmvvm                : "1.0.1",
             //
@@ -100,7 +101,7 @@ ext {
             mpchart               : "1.0.1",
             snackbar              : "1.0.1",
             nohttp                : "1.0.1",
-            druidhttp             : "1.1.4",
+            druidhttp             : "1.1.5",
             druidzxing            : "1.0.2",
             tts                   : "1.0.1",
             exifinterface         : "1.3.2",
@@ -108,7 +109,7 @@ ext {
             batterytimeline       : "1.0.1",
             router                : "1.0.6",
             blechart              : "1.0.1",
-            blechartv2            : "1.0.3",
+            blechartv2            : "1.0.3",//1.0.3->1.0.4
             blecompass            : "1.0.1"
     ]
 
