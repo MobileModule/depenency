@@ -69,12 +69,12 @@ ext {
             appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "2.2.3",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
+            mapview               : "2.2.5",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
             sdcard                : "1.0.1",
             table                 : "1.0.1",
 
             //
-            freshView             : "1.0.4",
+            freshView             : "1.0.5",
             //
             timebar               : "1.0.7",
             //
