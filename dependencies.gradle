@@ -76,13 +76,13 @@ ext {
             //
             freshView             : "1.0.5",
             //
-            timebar               : "1.0.8",
+            timebarLib            : "1.0.8",
             //
-            qrcodelib             : "1.0.2",
+            qrcodeLib             : "1.0.2",
             //
             socket                : "1.0.3",
             //
-            belLib                : "1.8.0",//1.5.1->1.6.5->1.7.9
+            bleLib                : "1.8.0",//1.5.1->1.6.5->1.7.9
             //
             ktmvvm                : "1.0.1",
             //
@@ -180,37 +180,37 @@ ext {
             DimenX3               : "com.github.MobileModule:DruidDimenX3:v${versions.dimenx3}",
             //
             MapCore               : "com.druid.map:coremap:v${versions.mapview}",
-            MapBox                : "com.druid.map:druidmapbox:v${versions.mapview}",
-            MapGoogle             : "com.druid.map:druidgoogle:v${versions.mapview}",
-            GoogleUtils           : "com.druid.map:googleutils:v${versions.mapview}",
+            MapBox                : "com.druid.map:mapboxkt:v${versions.mapview}",
+            MapGoogle             : "com.druid.map:mapgoogle:v${versions.mapview}",
+            GoogleUtils           : "com.druid.map:google-utils:v${versions.mapview}",
             //
             SDCard                : "com.github.MobileModule:SDCard:v${versions.sdcard}",
             TableView             : "com.github.MobileModule:TableView:v${versions.table}",
             FreshView             : "com.github.MobileModule.RefreshView:refreshlib:v${versions.freshView}",
             SwipeRecyclerview     : "com.github.MobileModule.RefreshView:recyclerview-swipelib:v${versions.freshView}",
             //
-            TimeCore              : "com.druid.mark:timecore:v${versions.timebar}",
-            TimeBar               : "com.druid.mark:timebar:v${versions.timebar}",
-            TimeChart             : "com.druid.mark:timechart:v${versions.timebar}",
-            TimePaint             : "com.druid.mark:timepaint:v${versions.timebar}",
+            TimeCore              : "com.druid.mark:timecore:v${versions.timebarLib}",
+            TimeBar               : "com.druid.mark:timebar:v${versions.timebarLib}",
+            TimeChart             : "com.druid.mark:timechart:v${versions.timebarLib}",
+            TimePaint             : "com.druid.mark:timepaint:v${versions.timebarLib}",
             //
             QrCodeOpenCV          : "com.druid.qrcode:opencv:v${versions.qrcodeLib}",
-            QrCodeLib             : "com.druid.qrcode:wechat:v${versions.qrcodeLib}",
-            QrCodeScanning        : "com.druid.qrcode:scanning:v${versions.qrcodeLib}",
+            QrCodeLib             : "com.druid.qrcode:qrcode:v${versions.qrcodeLib}",
+            QrCodeScanning        : "com.druid.qrcode:qrcode-scanning:v${versions.qrcodeLib}",
             QrCodeCamera          : "com.druid.qrcode:camera:v${versions.qrcodeLib}",
             //
-            SocketClient          : "com.druid.socket:client:v${versions.socket}",
-            SocketCommon          : "com.druid.socket:common:v${versions.socket}",
-            SocketCore            : "com.druid.socket:core:v${versions.socket}",
+            SocketClient          : "com.druid.socket:socket-client:v${versions.socket}",
+            SocketCommon          : "com.druid.socket:socket-common-interface:v${versions.socket}",
+            SocketCore            : "com.druid.socket:socket-core:v${versions.socket}",
             //
-            Ota                   : "com.druid.intelink:ota:v${versions.belLib}",
-            Nordic                : "com.druid.intelink:nordic-ble:v${versions.belLib}",
-            Scanner               : "com.druid.intelink:scanner:v${versions.belLib}",
-            Protocol              : "com.druid.intelink:protocol:v${versions.belLib}",
-            AppLog                : "com.druid.intelink:blelog:v${versions.belLib}",
-            Blutooth              : "com.druid.intelink:blutooth:v${versions.belLib}",
-            Ble                   : "com.druid.intelink:ble:v${versions.belLib}",
-            BleAct                : "com.druid.intelink:bleact:v${versions.belLib}",
+            Ota                   : "com.druid.intelink:ota:v${versions.bleLib}",
+            Nordic                : "com.druid.intelink:nordic-ble:v${versions.bleLib}",
+            Scanner               : "com.druid.intelink:scanner:v${versions.bleLib}",
+            Protocol              : "com.druid.intelink:protocol:v${versions.bleLib}",
+            AppLog                : "com.druid.intelink:applog:v${versions.bleLib}",
+            Blutooth              : "com.druid.intelink:bluetoothspp:v${versions.bleLib}",
+            Ble                   : "com.druid.intelink:blespp:v${versions.bleLib}",
+            BleAct                : "com.druid.intelink:bleact:v${versions.bleLib}",
             //
             KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
             //
