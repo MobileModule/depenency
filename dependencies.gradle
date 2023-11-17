@@ -1,14 +1,14 @@
 ext {
     androidVersions = [
             minSdkVersion    : 21,
-            targetSdkVersion : 31,
-            buildToolsVersion: "29.0.3",
-            compileSdkVersion: 31,
+            targetSdkVersion : 33,
+            buildToolsVersion: "30.0.3",
+            compileSdkVersion: 33,
     ]
 
     versions = [
             appCompat             : "1.1.0",
-            recyclerview          : "1.1.0",
+            recyclerview          : "1.2.1",
             cardview              : "1.0.0",
             interpolator          : "1.0.0",
             material              : "1.1.0",
@@ -27,8 +27,9 @@ ext {
             fragmentKtx           : "1.3.1",
             navigationFragmentKtx : "2.3.5",
             navigationUiKtx       : "2.3.5",
+            leaks                 : "2.12",
             //kotlin
-            kotlin                : "1.7.10",
+            kotlin                : "1.7.20",
             //lifecycle
             lifecycleRuntimeKtx   : "2.3.0",
             lifecycleCommonJava8  : "2.2.0",
@@ -51,34 +52,42 @@ ext {
             fastjson              : "1.2.8",
             picasso               : "2.3.4",
             glide                 : "4.11.0",
-            //map
-            mapboxSdx             : "9.7.0",
-            mapboxTurf            : "5.3.0",
+            //mapbox v9
+            locationtech          : "1.17.0",
+            mapboxSdxV9           : "9.7.0",
+            mapboxTurf            : "5.4.1",
             mapboxLocation        : "0.12.0",
             mapboxPluginAnnotation: "0.9.0",
             mapboxPluginMarkerView: "0.4.0",
-            googleMap             : "18.0.2",
+            //mapbox v10
+            mapboxSdxV10          : "10.13.0",
+            mapboxJavaServices    : "5.4.1",
+            //google map
+            googleMap             : "18.1.0",
             googleLocation        : "18.0.0",
             //druid
-            appUpdate             : "1.0.5",
+            appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "1.1.3",
+            mapview               : "2.2.5",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
             sdcard                : "1.0.1",
             table                 : "1.0.1",
+
             //
-            freshView             : "1.0.2",
+            freshView             : "1.0.5",
             //
-            timebar               : "1.0.4",
+            timebar               : "1.0.7",
             //
             qrcodeOpenCV          : "1.0.1",
             qrcodeLib             : "1.0.1",
             qrcodeScanning        : "1.0.1",
             qrcodeCamera          : "1.0.1",
             //
-            socket                : "1.0.1",
+            socket                : "1.0.2",
             //
-            belLib                : "1.2.4",
+            belLib                : "1.7.6",//1.5.1->1.6.5->1.7.9
+            //
+            ktmvvm                : "1.0.1",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
@@ -86,18 +95,22 @@ ext {
             imageviewer           : "1.0.1",
             navigator             : "1.0.1",
             viewguid              : "1.0.2",
-            locallan              : "1.0.1",
-            selectphotots         : "1.0.1",
+            locallan              : "1.0.5",
             pickerview            : "1.0.1",
             ander                 : "1.0.1",
             mpchart               : "1.0.1",
             snackbar              : "1.0.1",
             nohttp                : "1.0.1",
-            druidhttp             : "1.0.9",
-            druidzxing            : "1.0.1",
+            druidhttp             : "1.1.5",
+            druidzxing            : "1.0.2",
             tts                   : "1.0.1",
             exifinterface         : "1.3.2",
-            daolib                : "1.0.1"
+            daolib                : "1.0.3",
+            batterytimeline       : "1.0.1",
+            router                : "1.0.6",
+            blechart              : "1.0.1",
+            blechartv2            : "1.0.3",//1.0.3->1.0.4
+            blecompass            : "1.0.1"
     ]
 
     dependenciesList = [
@@ -149,26 +162,29 @@ ext {
             Cube                  : "in.srain.cube:clog:1.0.2",
             VideoPlayer           : "cn.jzvd:jiaozivideoplayer:6.2.4",
             SeekBar               : "com.zhouyou:signseekbar:1.0.6",
-            GifImage              : "pl.droidsonroids.gif:android-gif-drawable:1.2.12",
+            GifImage              : "pl.droidsonroids.gif:android-gif-drawable:1.2.27",
             //
-            Mapbox                : "com.mapbox.mapboxsdk:mapbox-android-sdk:${versions.mapboxSdx}",
+            LocationTech          : "org.locationtech.jts:jts-core:${versions.locationtech}",
+            MapboxV9              : "com.mapbox.mapboxsdk:mapbox-android-sdk:${versions.mapboxSdxV9}",
             MapboxTurf            : "com.mapbox.mapboxsdk:mapbox-sdk-turf:${versions.mapboxTurf}",
             MapboxLocation        : "com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:${versions.mapboxLocation}",
             MapboxPluginAnnotation: "com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:${versions.mapboxPluginAnnotation}",
             MapboxPluginMarkerView: "com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:${versions.mapboxPluginMarkerView}",
             //
+            MapboxV10             : "com.mapbox.maps:android:${versions.mapboxSdxV10}",
+            //
             GoogleMap             : "com.google.android.gms:play-services-maps:${versions.googleMap}",
             GoogleLocation        : "com.google.android.gms:play-services-location:${versions.googleLocation}",
             //
             Mp4Parse              : "com.googlecode.mp4parser:isoparser:1.1.21",
-            //
+            //Druid公共库
             AppUpdate             : "com.github.MobileModule:AppUpdater:v${versions.appUpdate}",
             DimenX2               : "com.github.MobileModule:DruidDimenX2:v${versions.dimenx2}",
             DimenX3               : "com.github.MobileModule:DruidDimenX3:v${versions.dimenx3}",
             MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapview}",
-            MapBox                : "com.github.MobileModule.MapView:mapboxlib:v${versions.mapview}",
+            MapBox                : "com.github.MobileModule.MapView:mapboxktlib:v${versions.mapview}",
             MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapview}",
-            GoogleCluster         : "com.github.MobileModule.MapView:googleclusterlib:v${versions.mapview}",
+            GoogleUtils           : "com.github.MobileModule.MapView:googleutilslib:v${versions.mapview}",
             SDCard                : "com.github.MobileModule:SDCard:v${versions.sdcard}",
             TableView             : "com.github.MobileModule:TableView:v${versions.table}",
             FreshView             : "com.github.MobileModule.RefreshView:refreshlib:v${versions.freshView}",
@@ -197,6 +213,8 @@ ext {
             Ble                   : "com.github.MobileModule.DruidBle:blespplib:v${versions.belLib}",
             BleAct                : "com.github.MobileModule.DruidBle:bleactlib:v${versions.belLib}",
             //
+            KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
+            //
             Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
             ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
             FolderManager         : "com.github.MobileModule:FolderManager:v${versions.foldermanager}",
@@ -204,7 +222,7 @@ ext {
             Navigator             : "com.github.MobileModule:Navigator:v${versions.navigator}",
             ViewGuid              : "com.github.MobileModule:ViewGuid:v${versions.viewguid}",
             LocalLan              : "com.github.MobileModule.LocalLan:locallan:v${versions.locallan}",
-            SelectPhotos          : "com.github.MobileModule.LocalLan:selectphotos:v${versions.selectphotots}",
+            SelectPhotos          : "com.github.MobileModule.LocalLan:selectphotos:v${versions.locallan}",
             PickerView            : "com.github.MobileModule:PickerView:v${versions.pickerview}",
             Ander                 : "com.github.MobileModule:Ander:v${versions.ander}",
             MPChart               : "com.github.MobileModule:MPChart:v${versions.mpchart}",
@@ -216,6 +234,12 @@ ext {
             RN                    : "com.facebook.react:react-native:+",
             RNJS                  : "org.webkit:android-jsc:+",
             Exifinterface         : "androidx.exifinterface:exifinterface:${versions.exifinterface}",
-            DaoLib                : "com.github.MobileModule:DruidDao:v${versions.daolib}"
+            DaoLib                : "com.github.MobileModule:DruidDao:v${versions.daolib}",
+            BatteryTimeLine       : "com.github.MobileModule:batterytimeline:v${versions.batterytimeline}",
+            Router                : "com.github.MobileModule:arouter:v${versions.router}",
+            BleChart              : "com.github.MobileModule:FindChart:v${versions.blechart}",
+            BleChartV2            : "com.github.MobileModule:FindChartV2:v${versions.blechartv2}",
+            BleCompass            : "com.github.MobileModule:FindDiraction:v${versions.blecompass}",
+            LeakCanary            : "com.squareup.leakcanary:leakcanary-android:${versions.leaks}"
     ]
 }
