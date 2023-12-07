@@ -83,6 +83,7 @@ ext {
             socket                : "1.0.3",
             //
             bleLib                : "1.8.1",//1.5.1->1.6.5->1.7.9
+            blev3                 : "1.0.1.6",
             //
             ktmvvm                : "1.0.1",
             //
@@ -202,7 +203,7 @@ ext {
             SocketClient          : "com.druid.socket:socket-client:v${versions.socket}",
             SocketCommon          : "com.druid.socket:socket-common-interface:v${versions.socket}",
             SocketCore            : "com.druid.socket:socket-core:v${versions.socket}",
-            //
+            //v2
             Ota                   : "com.druid.intelink:ota:v${versions.bleLib}",
             Nordic                : "com.druid.intelink:nordic-ble:v${versions.bleLib}",
             Scanner               : "com.druid.intelink:scanner:v${versions.bleLib}",
@@ -211,6 +212,13 @@ ext {
             Blutooth              : "com.druid.intelink:bluetoothspp:v${versions.bleLib}",
             Ble                   : "com.druid.intelink:blespp:v${versions.bleLib}",
             BleAct                : "com.druid.intelink:bleact:v${versions.bleLib}",
+            //v3
+            BleV3Application      : "com.druid.intelinkv3:blev3-application:v${versions.blev3}",
+            BleV3Communication    : "com.druid.intelinkv3:blev3-communication:v${versions.blev3}",
+            BleV3Core             : "com.druid.intelinkv3:blev3-core:v${versions.blev3}",
+            BleV3Log              : "com.druid.intelinkv3:blev3-log:v${versions.blev3}",
+            BleV3Protocol         : "com.druid.intelinkv3:blev3-protocol:v${versions.blev3}",
+            BleV3Util             : "com.druid.intelinkv3:blev3-util:v${versions.blev3}",
             //
             KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
             //
