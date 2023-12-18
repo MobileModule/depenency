@@ -106,7 +106,7 @@ ext {
             daolib                : "1.0.3",
             batterytimeline       : "1.0.1",
             router                : "1.0.7",
-            blechart              : "1.0.3",
+            blechart              : "1.0.3",//1.0.4
             blechartv2            : "1.0.5",//1.0.3->1.0.4
             blecompass            : "1.0.2"
     ]
