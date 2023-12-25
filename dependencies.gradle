@@ -90,7 +90,7 @@ ext {
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
             foldermanager         : "1.0.1",
-            imageviewer           : "1.0.1",
+            imageviewer           : "1.0.2",
             navigator             : "1.0.1",
             viewguid              : "1.0.2",
             locallan              : "1.0.5",
@@ -106,7 +106,7 @@ ext {
             daolib                : "1.0.3",
             batterytimeline       : "1.0.1",
             router                : "1.0.7",
-            blechart              : "1.0.3",
+            blechart              : "1.0.3",//1.0.4
             blechartv2            : "1.0.5",//1.0.3->1.0.4
             blecompass            : "1.0.2"
     ]
@@ -225,7 +225,7 @@ ext {
             Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
             ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
             FolderManager         : "com.github.MobileModule:FolderManager:v${versions.foldermanager}",
-            ImageViewer           : "com.github.MobileModule:ImageViewer:v${versions.imageviewer}",
+            ImageViewer           : "com.druid.image:imageviewer:v${versions.imageviewer}",
             Navigator             : "com.github.MobileModule:Navigator:v${versions.navigator}",
             ViewGuid              : "com.github.MobileModule:ViewGuid:v${versions.viewguid}",
             LocalLan              : "com.github.MobileModule.LocalLan:locallan:v${versions.locallan}",
