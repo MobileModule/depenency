@@ -27,6 +27,7 @@ ext {
             fragmentKtx           : "1.3.1",
             navigationFragmentKtx : "2.3.5",
             navigationUiKtx       : "2.3.5",
+            leaks                 : "2.12",
             //kotlin
             kotlin                : "1.7.20",
             //lifecycle
@@ -68,29 +69,28 @@ ext {
             appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "2.1.4",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
+            mapview               : "2.2.8",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
             sdcard                : "1.0.1",
             table                 : "1.0.1",
+
             //
-            freshView             : "1.0.2",
+            freshView             : "1.0.5",
             //
-            timebar               : "1.0.7",
+            timebarLib            : "1.0.8",
             //
-            qrcodeOpenCV          : "1.0.1",
-            qrcodeLib             : "1.0.1",
-            qrcodeScanning        : "1.0.1",
-            qrcodeCamera          : "1.0.1",
+            qrcodeLib             : "1.0.2",
             //
-            socket                : "1.0.2",
+            socket                : "1.0.3",
             //
-            belLib                : "1.4.2",//1.3.9
+            bleLib                : "1.8.1",//1.5.1->1.6.5->1.7.9
+            blev3                 : "1.0.1.6",
             //
             ktmvvm                : "1.0.1",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
             foldermanager         : "1.0.1",
-            imageviewer           : "1.0.1",
+            imageviewer           : "1.0.2",
             navigator             : "1.0.1",
             viewguid              : "1.0.2",
             locallan              : "1.0.5",
@@ -99,13 +99,16 @@ ext {
             mpchart               : "1.0.1",
             snackbar              : "1.0.1",
             nohttp                : "1.0.1",
-            druidhttp             : "1.1.4",
-            druidzxing            : "1.0.1",
+            druidhttp             : "1.1.6",
+            druidzxing            : "1.0.2",
             tts                   : "1.0.1",
             exifinterface         : "1.3.2",
             daolib                : "1.0.3",
             batterytimeline       : "1.0.1",
-            router                : "1.0.1"
+            router                : "1.0.7",
+            blechart              : "1.0.3",//1.0.4
+            blechartv2            : "1.0.5",//1.0.3->1.0.4
+            blecompass            : "1.0.2"
     ]
 
     dependenciesList = [
@@ -176,44 +179,53 @@ ext {
             AppUpdate             : "com.github.MobileModule:AppUpdater:v${versions.appUpdate}",
             DimenX2               : "com.github.MobileModule:DruidDimenX2:v${versions.dimenx2}",
             DimenX3               : "com.github.MobileModule:DruidDimenX3:v${versions.dimenx3}",
-            MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapview}",
-            MapBox                : "com.github.MobileModule.MapView:mapboxktlib:v${versions.mapview}",
-            MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapview}",
-            GoogleUtils           : "com.github.MobileModule.MapView:googleutilslib:v${versions.mapview}",
+            //
+            MapCore               : "com.druid.map:coremap:v${versions.mapview}",
+            MapBox                : "com.druid.map:mapboxkt:v${versions.mapview}",
+            MapGoogle             : "com.druid.map:mapgoogle:v${versions.mapview}",
+            GoogleUtils           : "com.druid.map:google-utils:v${versions.mapview}",
+            //
             SDCard                : "com.github.MobileModule:SDCard:v${versions.sdcard}",
             TableView             : "com.github.MobileModule:TableView:v${versions.table}",
             FreshView             : "com.github.MobileModule.RefreshView:refreshlib:v${versions.freshView}",
             SwipeRecyclerview     : "com.github.MobileModule.RefreshView:recyclerview-swipelib:v${versions.freshView}",
             //
-            TimeCore              : "com.github.MobileModule.TimeMark:mark-timecore:v${versions.timebar}",
-            TimeBar               : "com.github.MobileModule.TimeMark:mark-timebar:v${versions.timebar}",
-            TimeChart             : "com.github.MobileModule.TimeMark:mark-timechart:v${versions.timebar}",
-            TimePaint             : "com.github.MobileModule.TimeMark:mark-timepaint:v${versions.timebar}",
+            TimeCore              : "com.druid.mark:timecore:v${versions.timebarLib}",
+            TimeBar               : "com.druid.mark:timebar:v${versions.timebarLib}",
+            TimeChart             : "com.druid.mark:timechart:v${versions.timebarLib}",
+            TimePaint             : "com.druid.mark:timepaint:v${versions.timebarLib}",
             //
-            QrCodeOpenCV          : "com.github.MobileModule.QRLibs:qrcode-opencvlib:v${versions.qrcodeOpenCV}",
-            QrCodeLib             : "com.github.MobileModule.QRLibs:qrcodelib:v${versions.qrcodeLib}",
-            QrCodeScanning        : "com.github.MobileModule.QRLibs:qrcode-scanninglib:v${versions.qrcodeScanning}",
-            QrCodeCamera          : "com.github.MobileModule.QRLibs:qrcode-cameralib:v${versions.qrcodeCamera}",
+            QrCodeOpenCV          : "com.druid.qrcode:opencv:v${versions.qrcodeLib}",
+            QrCodeLib             : "com.druid.qrcode:qrcode:v${versions.qrcodeLib}",
+            QrCodeScanning        : "com.druid.qrcode:qrcode-scanning:v${versions.qrcodeLib}",
+            QrCodeCamera          : "com.druid.qrcode:camera:v${versions.qrcodeLib}",
             //
-            SocketClient          : "com.github.MobileModule.Socket:socket-clentlib:v${versions.socket}",
-            SocketCommon          : "com.github.MobileModule.Socket:socket-commonlib:v${versions.socket}",
-            SocketCore            : "com.github.MobileModule.Socket:socket-corelib:v${versions.socket}",
-            //
-            Ota                   : "com.github.MobileModule.DruidBle:otalib:v${versions.belLib}",
-            Nordic                : "com.github.MobileModule.DruidBle:nordiclib:v${versions.belLib}",
-            Scanner               : "com.github.MobileModule.DruidBle:scannerlib:v${versions.belLib}",
-            Protocol              : "com.github.MobileModule.DruidBle:protocollib:v${versions.belLib}",
-            AppLog                : "com.github.MobileModule.DruidBle:apploglib:v${versions.belLib}",
-            Blutooth              : "com.github.MobileModule.DruidBle:blutoothspplib:v${versions.belLib}",
-            Ble                   : "com.github.MobileModule.DruidBle:blespplib:v${versions.belLib}",
-            BleAct                : "com.github.MobileModule.DruidBle:bleactlib:v${versions.belLib}",
+            SocketClient          : "com.druid.socket:socket-client:v${versions.socket}",
+            SocketCommon          : "com.druid.socket:socket-common-interface:v${versions.socket}",
+            SocketCore            : "com.druid.socket:socket-core:v${versions.socket}",
+            //v2
+            Ota                   : "com.druid.intelink:ota:v${versions.bleLib}",
+            Nordic                : "com.druid.intelink:nordic-ble:v${versions.bleLib}",
+            Scanner               : "com.druid.intelink:scanner:v${versions.bleLib}",
+            Protocol              : "com.druid.intelink:protocol:v${versions.bleLib}",
+            AppLog                : "com.druid.intelink:applog:v${versions.bleLib}",
+            Blutooth              : "com.druid.intelink:bluetoothspp:v${versions.bleLib}",
+            Ble                   : "com.druid.intelink:blespp:v${versions.bleLib}",
+            BleAct                : "com.druid.intelink:bleact:v${versions.bleLib}",
+            //v3
+            BleV3Application      : "com.druid.intelinkv3:blev3-application:v${versions.blev3}",
+            BleV3Communication    : "com.druid.intelinkv3:blev3-communication:v${versions.blev3}",
+            BleV3Core             : "com.druid.intelinkv3:blev3-core:v${versions.blev3}",
+            BleV3Log              : "com.druid.intelinkv3:blev3-log:v${versions.blev3}",
+            BleV3Protocol         : "com.druid.intelinkv3:blev3-protocol:v${versions.blev3}",
+            BleV3Util             : "com.druid.intelinkv3:blev3-util:v${versions.blev3}",
             //
             KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
             //
             Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
             ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
             FolderManager         : "com.github.MobileModule:FolderManager:v${versions.foldermanager}",
-            ImageViewer           : "com.github.MobileModule:ImageViewer:v${versions.imageviewer}",
+            ImageViewer           : "com.druid.image:imageviewer:v${versions.imageviewer}",
             Navigator             : "com.github.MobileModule:Navigator:v${versions.navigator}",
             ViewGuid              : "com.github.MobileModule:ViewGuid:v${versions.viewguid}",
             LocalLan              : "com.github.MobileModule.LocalLan:locallan:v${versions.locallan}",
@@ -223,7 +235,7 @@ ext {
             MPChart               : "com.github.MobileModule:MPChart:v${versions.mpchart}",
             SnackBar              : "com.github.MobileModule:SnackBar:v${versions.snackbar}",
             NoHttp                : "com.github.MobileModule:NoHttp:v${versions.nohttp}",
-            DruidHttp             : "com.github.MobileModule:DruidHttp:v${versions.druidhttp}",
+            DruidHttp             : "com.druid.http:druidhttp:v${versions.druidhttp}",
             DruidZxing            : "com.github.MobileModule:Zxing:v${versions.druidzxing}",
             TTS                   : "com.github.MobileModule:MscLib:v${versions.tts}",
             RN                    : "com.facebook.react:react-native:+",
@@ -231,6 +243,10 @@ ext {
             Exifinterface         : "androidx.exifinterface:exifinterface:${versions.exifinterface}",
             DaoLib                : "com.github.MobileModule:DruidDao:v${versions.daolib}",
             BatteryTimeLine       : "com.github.MobileModule:batterytimeline:v${versions.batterytimeline}",
-            Router                : "com.github.MobileModule:arouter:v${versions.router}"
+            Router                : "com.druid.router:router:v${versions.router}",
+            BleChart              : "com.druid.chart:blerssiv1:v${versions.blechart}",
+            BleChartV2            : "com.druid.chart:blerssiv2:v${versions.blechartv2}",
+            BleCompass            : "com.druid.chart:blecompass:v${versions.blecompass}",
+            LeakCanary            : "com.squareup.leakcanary:leakcanary-android:${versions.leaks}"
     ]
 }
