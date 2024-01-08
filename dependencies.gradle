@@ -31,11 +31,11 @@ ext {
             //kotlin
             kotlin                : "1.7.20",
             //lifecycle
-            lifecycleRuntimeKtx   : "2.3.0",
-            lifecycleCommonJava8  : "2.2.0",
+            lifecycleRuntimeKtx   : "2.6.2",
+            lifecycleCommonJava8  : "2.6.2",
             lifecycleExtensions   : "2.2.0",
-            lifecycleViewmodelKtx : "2.3.0",
-            lifecycleLiveDataKtx  : "2.2.0",
+            lifecycleViewmodelKtx : "2.6.2",
+            lifecycleLiveDataKtx  : "2.6.2",
             liveDataUnpeek        : "4.4.1-beta1",
             //
             okhttp3               : "3.12.3",
