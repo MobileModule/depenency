@@ -29,7 +29,7 @@ ext {
             navigationUiKtx       : "2.3.5",
             leaks                 : "2.12",
             //kotlin
-            kotlin                : "1.7.20",
+            kotlin                : "1.9.20",
             //lifecycle
             lifecycleRuntimeKtx   : "2.6.2",
             lifecycleCommonJava8  : "2.6.2",
@@ -82,7 +82,7 @@ ext {
             //
             socket                : "1.0.3",
             //
-            bleLib                : "1.8.3",//1.5.1->1.6.5->1.7.9
+            bleLib                : "1.8.4",//1.5.1->1.6.5->1.7.9
             blev3                 : "1.0.1.6",
             //
             ktmvvm                : "1.0.1",
