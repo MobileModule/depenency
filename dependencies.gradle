@@ -69,7 +69,7 @@ ext {
             appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "2.2.6",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
+            mapview               : "2.2.8",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
             sdcard                : "1.0.1",
             table                 : "1.0.1",
 
@@ -82,7 +82,8 @@ ext {
             //
             socket                : "1.0.3",
             //
-            bleLib                : "1.8.3",//1.5.1->1.6.5->1.7.9
+            bleLib                : "3.0.0",//1.5.1->1.6.5->1.7.9->1.8.4
+            blev3                 : "1.0.1.6",
             //
             ktmvvm                : "1.0.1",
             //
@@ -105,9 +106,13 @@ ext {
             daolib                : "1.0.3",
             batterytimeline       : "1.0.1",
             router                : "1.0.7",
-            blechart              : "1.0.3",
+            blechart              : "1.0.4",//1.0.4
             blechartv2            : "1.0.5",//1.0.3->1.0.4
-            blecompass            : "1.0.2"
+            blecompass            : "1.0.2",
+            druidbanner           : "1.0.1",
+            styletheme            : "1.0.1",
+            widget                : "1.0.1",
+            greendaohelper        : "2.2.1"
     ]
 
     dependenciesList = [
@@ -202,7 +207,7 @@ ext {
             SocketClient          : "com.druid.socket:socket-client:v${versions.socket}",
             SocketCommon          : "com.druid.socket:socket-common-interface:v${versions.socket}",
             SocketCore            : "com.druid.socket:socket-core:v${versions.socket}",
-            //
+            //v2
             Ota                   : "com.druid.intelink:ota:v${versions.bleLib}",
             Nordic                : "com.druid.intelink:nordic-ble:v${versions.bleLib}",
             Scanner               : "com.druid.intelink:scanner:v${versions.bleLib}",
@@ -211,6 +216,13 @@ ext {
             Blutooth              : "com.druid.intelink:bluetoothspp:v${versions.bleLib}",
             Ble                   : "com.druid.intelink:blespp:v${versions.bleLib}",
             BleAct                : "com.druid.intelink:bleact:v${versions.bleLib}",
+            //v3
+            BleV3Application      : "com.druid.intelinkv3:blev3-application:v${versions.blev3}",
+            BleV3Communication    : "com.druid.intelinkv3:blev3-communication:v${versions.blev3}",
+            BleV3Core             : "com.druid.intelinkv3:blev3-core:v${versions.blev3}",
+            BleV3Log              : "com.druid.intelinkv3:blev3-log:v${versions.blev3}",
+            BleV3Protocol         : "com.druid.intelinkv3:blev3-protocol:v${versions.blev3}",
+            BleV3Util             : "com.druid.intelinkv3:blev3-util:v${versions.blev3}",
             //
             KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
             //
@@ -239,6 +251,12 @@ ext {
             BleChart              : "com.druid.chart:blerssiv1:v${versions.blechart}",
             BleChartV2            : "com.druid.chart:blerssiv2:v${versions.blechartv2}",
             BleCompass            : "com.druid.chart:blecompass:v${versions.blecompass}",
-            LeakCanary            : "com.squareup.leakcanary:leakcanary-android:${versions.leaks}"
+            LeakCanary            : "com.squareup.leakcanary:leakcanary-android:${versions.leaks}",
+            Slidingtab            : "com.druid.bannar:slidingtab:v${versions.druidbanner}",
+            DruidViewPager2       : "com.druid.bannar:viewpager2:v${versions.druidbanner}",
+            StyleTheme            : "com.druid.style:theme:v${versions.styletheme}",
+            Widget                : "com.druid.control:widget:v${versions.widget}",
+            GreenDaoHelper        : "io.github.yuweiguocn:GreenDaoUpgradeHelper:v${versions.greendaohelper}"
+
     ]
 }
