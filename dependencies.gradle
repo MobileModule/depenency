@@ -83,7 +83,7 @@ ext {
             socket                : "1.0.3",
             //
             bleLib                : "3.0.0",//1.5.1->1.6.5->1.7.9->1.8.4
-            blev3                 : "1.0.1.6",
+            blev3                 : "1.0.1",
             //
             ktmvvm                : "1.0.1",
             //
@@ -217,12 +217,15 @@ ext {
             Ble                   : "com.druid.intelink:blespp:v${versions.bleLib}",
             BleAct                : "com.druid.intelink:bleact:v${versions.bleLib}",
             //v3
-            BleV3Application      : "com.druid.intelinkv3:blev3-application:v${versions.blev3}",
-            BleV3Communication    : "com.druid.intelinkv3:blev3-communication:v${versions.blev3}",
-            BleV3Core             : "com.druid.intelinkv3:blev3-core:v${versions.blev3}",
-            BleV3Log              : "com.druid.intelinkv3:blev3-log:v${versions.blev3}",
-            BleV3Protocol         : "com.druid.intelinkv3:blev3-protocol:v${versions.blev3}",
-            BleV3Util             : "com.druid.intelinkv3:blev3-util:v${versions.blev3}",
+            IntelinkV3Acess       : "com.druid.intelinkv3:blev3-access:v${versions.blev3}",
+            IntelinkV3Application : "com.druid.intelinkv3:blev3-application:v${versions.blev3}",
+            IntelinkV3Communication  : "com.druid.intelinkv3:blev3-communication:v${versions.blev3}",
+            IntelinkV3Core        : "com.druid.intelinkv3:blev3-core:v${versions.blev3}",
+            IntelinkV3Extra       : "com.druid.intelinkv3:blev3-extra:v${versions.blev3}",
+            IntelinkV3Log         : "com.druid.intelinkv3:blev3-log:v${versions.blev3}",
+            IntelinkV3Records     : "com.druid.intelinkv3:blev3-records:v${versions.blev3}",
+            IntelinkV3Protocol    : "com.druid.intelinkv3:blev3-protocol:v${versions.blev3}",
+            IntelinkV3Util        : "com.druid.intelinkv3:blev3-util:v${versions.blev3}",
             //
             KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
             //
