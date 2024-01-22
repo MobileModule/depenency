@@ -108,7 +108,11 @@ ext {
             router                : "1.0.7",
             blechart              : "1.0.3",//1.0.4
             blechartv2            : "1.0.5",//1.0.3->1.0.4
-            blecompass            : "1.0.2"
+            blecompass            : "1.0.2",
+            druidbanner           : "1.0.1",
+            styletheme            : "1.0.1",
+            widget                : "1.0.1",
+            greendaohelper        : "2.2.1"
     ]
 
     dependenciesList = [
@@ -247,6 +251,11 @@ ext {
             BleChart              : "com.druid.chart:blerssiv1:v${versions.blechart}",
             BleChartV2            : "com.druid.chart:blerssiv2:v${versions.blechartv2}",
             BleCompass            : "com.druid.chart:blecompass:v${versions.blecompass}",
-            LeakCanary            : "com.squareup.leakcanary:leakcanary-android:${versions.leaks}"
+            LeakCanary            : "com.squareup.leakcanary:leakcanary-android:${versions.leaks}",
+            Slidingtab            : "com.druid.bannar:slidingtab:v${versions.druidbanner}",
+            DruidViewPager2       : "com.druid.bannar:viewpager2:v${versions.druidbanner}",
+            StyleTheme            : "com.druid.style:theme:v${versions.styletheme}",
+            Widget                : "com.druid.control:widget:v${versions.widget}",
+            GreenDaoHelper        : "io.github.yuweiguocn:GreenDaoUpgradeHelper:v${versions.greendaohelper}"
     ]
 }
