@@ -85,7 +85,7 @@ ext {
             bleLib                : "1.8.4",//1.5.1->1.6.5->1.7.9
             blev3                 : "1.0.1.6",
             //
-            ktmvvm                : "1.0.3",
+            ktlib                 : "1.0.5",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
@@ -224,7 +224,7 @@ ext {
             BleV3Protocol         : "com.druid.intelinkv3:blev3-protocol:v${versions.blev3}",
             BleV3Util             : "com.druid.intelinkv3:blev3-util:v${versions.blev3}",
             //
-            KtMVVM                : "com.druid.ktlib:ktlib:v${versions.ktmvvm}",
+            KtLib                 : "com.android.abase:ktlib:v${versions.ktlib}",
             //
             Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
             ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
