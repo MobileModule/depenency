@@ -1,14 +1,14 @@
 ext {
     androidVersions = [
             minSdkVersion    : 21,
-            targetSdkVersion : 31,
-            buildToolsVersion: "29.0.3",
-            compileSdkVersion: 31,
+            targetSdkVersion : 33,
+            buildToolsVersion: "30.0.3",
+            compileSdkVersion: 33,
     ]
 
     versions = [
             appCompat             : "1.1.0",
-            recyclerview          : "1.1.0",
+            recyclerview          : "1.2.1",
             cardview              : "1.0.0",
             interpolator          : "1.0.0",
             material              : "1.1.0",
@@ -27,14 +27,15 @@ ext {
             fragmentKtx           : "1.3.1",
             navigationFragmentKtx : "2.3.5",
             navigationUiKtx       : "2.3.5",
+            leaks                 : "2.12",
             //kotlin
-            kotlin                : "1.7.10",
+            kotlin                : "1.9.20",
             //lifecycle
-            lifecycleRuntimeKtx   : "2.3.0",
-            lifecycleCommonJava8  : "2.2.0",
+            lifecycleRuntimeKtx   : "2.6.2",
+            lifecycleCommonJava8  : "2.6.2",
             lifecycleExtensions   : "2.2.0",
-            lifecycleViewmodelKtx : "2.3.0",
-            lifecycleLiveDataKtx  : "2.2.0",
+            lifecycleViewmodelKtx : "2.6.2",
+            lifecycleLiveDataKtx  : "2.6.2",
             liveDataUnpeek        : "4.4.1-beta1",
             //
             okhttp3               : "3.12.3",
@@ -51,54 +52,70 @@ ext {
             fastjson              : "1.2.8",
             picasso               : "2.3.4",
             glide                 : "4.11.0",
-            //map
-            mapboxSdx             : "9.7.0",
-            mapboxTurf            : "5.5.0",
+            //mapbox v9
+            locationtech          : "1.17.0",
+            mapboxSdxV9           : "9.7.0",
+            mapboxTurf            : "5.4.1",
             mapboxLocation        : "0.12.0",
             mapboxPluginAnnotation: "0.9.0",
             mapboxPluginMarkerView: "0.4.0",
-            googleMap             : "18.0.2",
+            //mapbox v10
+            mapboxSdxV10          : "10.13.0",
+            mapboxJavaServices    : "5.4.1",
+            //google map
+            googleMap             : "18.1.0",
             googleLocation        : "18.0.0",
             //druid
-            appUpdate             : "1.0.5",
+            appUpdate             : "1.0.7",
             dimenx2               : "1.0.1",
             dimenx3               : "1.0.1",
-            mapview               : "1.1.0",
+            mapview               : "2.3.4",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
             sdcard                : "1.0.1",
             table                 : "1.0.1",
+
             //
-            freshView             : "1.0.2",
+            freshView             : "1.0.5",
             //
-            timebar               : "1.0.3",
+            timebarLib            : "1.0.8",
             //
-            qrcodeOpenCV          : "1.0.1",
-            qrcodeLib             : "1.0.1",
-            qrcodeScanning        : "1.0.1",
-            qrcodeCamera          : "1.0.1",
+            qrcodeLib             : "1.0.2",
             //
-            socket                : "1.0.1",
+            socket                : "1.0.3",
             //
-            belLib                : "1.1.5",
+            bleLib                : "1.8.8",//1.5.1->1.6.5->1.8.8
+            blev3                 : "1.0.1.6",
+            //
+            ktlib                 : "1.0.6",
             //
             ktmvvm                : "1.0.1",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
             foldermanager         : "1.0.1",
-            imageviewer           : "1.0.1",
+            imageviewer           : "1.0.2",
             navigator             : "1.0.1",
             viewguid              : "1.0.2",
-            locallan              : "1.0.1",
-            selectphotots         : "1.0.1",
+            locallan              : "1.0.5",
             pickerview            : "1.0.1",
             ander                 : "1.0.1",
             mpchart               : "1.0.1",
             snackbar              : "1.0.1",
             nohttp                : "1.0.1",
-            druidhttp             : "1.0.7",
-            druidzxing            : "1.0.1",
+            druidhttp             : "1.2.5",
+            druidzxing            : "1.0.2",
             tts                   : "1.0.1",
-            exifinterface         : "1.3.2"
+            exifinterface         : "1.3.2",
+            daolib                : "1.0.3",
+            batterytimeline       : "1.0.1",
+            router                : "1.0.7",
+            blechart              : "1.0.3",//1.0.4
+            blechartv2            : "1.0.5",//1.0.3->1.0.4
+            blecompass            : "1.0.2",
+            druidbanner           : "1.0.1",
+            styletheme            : "1.0.1",
+            widget                : "1.0.1",
+            greendaohelper        : "2.2.1",
+            tencentlocation       : "7.5.4.3"
     ]
 
     dependenciesList = [
@@ -150,74 +167,101 @@ ext {
             Cube                  : "in.srain.cube:clog:1.0.2",
             VideoPlayer           : "cn.jzvd:jiaozivideoplayer:6.2.4",
             SeekBar               : "com.zhouyou:signseekbar:1.0.6",
-            GifImage              : "pl.droidsonroids.gif:android-gif-drawable:1.2.12",
+            GifImage              : "pl.droidsonroids.gif:android-gif-drawable:1.2.27",
             //
-            Mapbox                : "com.mapbox.mapboxsdk:mapbox-android-sdk:${versions.mapboxSdx}",
+            LocationTech          : "org.locationtech.jts:jts-core:${versions.locationtech}",
+            MapboxV9              : "com.mapbox.mapboxsdk:mapbox-android-sdk:${versions.mapboxSdxV9}",
             MapboxTurf            : "com.mapbox.mapboxsdk:mapbox-sdk-turf:${versions.mapboxTurf}",
             MapboxLocation        : "com.mapbox.mapboxsdk:mapbox-android-plugin-localization-v9:${versions.mapboxLocation}",
             MapboxPluginAnnotation: "com.mapbox.mapboxsdk:mapbox-android-plugin-annotation-v9:${versions.mapboxPluginAnnotation}",
             MapboxPluginMarkerView: "com.mapbox.mapboxsdk:mapbox-android-plugin-markerview-v9:${versions.mapboxPluginMarkerView}",
             //
+            MapboxV10             : "com.mapbox.maps:android:${versions.mapboxSdxV10}",
+            //
             GoogleMap             : "com.google.android.gms:play-services-maps:${versions.googleMap}",
             GoogleLocation        : "com.google.android.gms:play-services-location:${versions.googleLocation}",
             //
             Mp4Parse              : "com.googlecode.mp4parser:isoparser:1.1.21",
-            //
+            //Druid公共库
             AppUpdate             : "com.github.MobileModule:AppUpdater:v${versions.appUpdate}",
             DimenX2               : "com.github.MobileModule:DruidDimenX2:v${versions.dimenx2}",
             DimenX3               : "com.github.MobileModule:DruidDimenX3:v${versions.dimenx3}",
-            MapCore               : "com.github.MobileModule.MapView:mapcorelib:v${versions.mapview}",
-            MapBox                : "com.github.MobileModule.MapView:mapboxlib:v${versions.mapview}",
-            MapGoogle             : "com.github.MobileModule.MapView:mapgooglelib:v${versions.mapview}",
-            GoogleCluster         : "com.github.MobileModule.MapView:googleclusterlib:v${versions.mapview}",
+            //
+            MapCore               : "com.druid.map:coremap:v${versions.mapview}",
+            MapBox                : "com.druid.map:mapboxkt:v${versions.mapview}",
+            MapGoogle             : "com.druid.map:mapgoogle:v${versions.mapview}",
+            GoogleUtils           : "com.druid.map:google-utils:v${versions.mapview}",
+            //
             SDCard                : "com.github.MobileModule:SDCard:v${versions.sdcard}",
             TableView             : "com.github.MobileModule:TableView:v${versions.table}",
             FreshView             : "com.github.MobileModule.RefreshView:refreshlib:v${versions.freshView}",
             SwipeRecyclerview     : "com.github.MobileModule.RefreshView:recyclerview-swipelib:v${versions.freshView}",
             //
-            TimeCore              : "com.github.MobileModule.TimeMark:mark-timecore:v${versions.timebar}",
-            TimeBar               : "com.github.MobileModule.TimeMark:mark-timebar:v${versions.timebar}",
-            TimeChart             : "com.github.MobileModule.TimeMark:mark-timechart:v${versions.timebar}",
-            TimePaint             : "com.github.MobileModule.TimeMark:mark-timepaint:v${versions.timebar}",
+            TimeCore              : "com.druid.mark:timecore:v${versions.timebarLib}",
+            TimeBar               : "com.druid.mark:timebar:v${versions.timebarLib}",
+            TimeChart             : "com.druid.mark:timechart:v${versions.timebarLib}",
+            TimePaint             : "com.druid.mark:timepaint:v${versions.timebarLib}",
             //
-            QrCodeOpenCV          : "com.github.MobileModule.QRLibs:qrcode-opencvlib:v${versions.qrcodeOpenCV}",
-            QrCodeLib             : "com.github.MobileModule.QRLibs:qrcodelib:v${versions.qrcodeLib}",
-            QrCodeScanning        : "com.github.MobileModule.QRLibs:qrcode-scanninglib:v${versions.qrcodeScanning}",
-            QrCodeCamera          : "com.github.MobileModule.QRLibs:qrcode-cameralib:v${versions.qrcodeCamera}",
+            QrCodeOpenCV          : "com.druid.qrcode:opencv:v${versions.qrcodeLib}",
+            QrCodeLib             : "com.druid.qrcode:qrcode:v${versions.qrcodeLib}",
+            QrCodeScanning        : "com.druid.qrcode:qrcode-scanning:v${versions.qrcodeLib}",
+            QrCodeCamera          : "com.druid.qrcode:camera:v${versions.qrcodeLib}",
             //
-            SocketClient          : "com.github.MobileModule.Socket:socket-clentlib:v${versions.socket}",
-            SocketCommon          : "com.github.MobileModule.Socket:socket-commonlib:v${versions.socket}",
-            SocketCore            : "com.github.MobileModule.Socket:socket-corelib:v${versions.socket}",
+            SocketClient          : "com.druid.socket:socket-client:v${versions.socket}",
+            SocketCommon          : "com.druid.socket:socket-common-interface:v${versions.socket}",
+            SocketCore            : "com.druid.socket:socket-core:v${versions.socket}",
+            //v2
+            Ota                   : "com.druid.intelink:ota:v${versions.bleLib}",
+            Nordic                : "com.druid.intelink:nordic-ble:v${versions.bleLib}",
+            Scanner               : "com.druid.intelink:scanner:v${versions.bleLib}",
+            Protocol              : "com.druid.intelink:protocol:v${versions.bleLib}",
+            AppLog                : "com.druid.intelink:applog:v${versions.bleLib}",
+            Blutooth              : "com.druid.intelink:bluetoothspp:v${versions.bleLib}",
+            Ble                   : "com.druid.intelink:blespp:v${versions.bleLib}",
+            BleAct                : "com.druid.intelink:bleact:v${versions.bleLib}",
+            //v3
+            BleV3Application      : "com.druid.intelinkv3:blev3-application:v${versions.blev3}",
+            BleV3Communication    : "com.druid.intelinkv3:blev3-communication:v${versions.blev3}",
+            BleV3Core             : "com.druid.intelinkv3:blev3-core:v${versions.blev3}",
+            BleV3Log              : "com.druid.intelinkv3:blev3-log:v${versions.blev3}",
+            BleV3Protocol         : "com.druid.intelinkv3:blev3-protocol:v${versions.blev3}",
+            BleV3Util             : "com.druid.intelinkv3:blev3-util:v${versions.blev3}",
             //
-            Ota                   : "com.github.MobileModule.DruidBle:otalib:v${versions.belLib}",
-            Nordic                : "com.github.MobileModule.DruidBle:nordiclib:v${versions.belLib}",
-            Scanner               : "com.github.MobileModule.DruidBle:scannerlib:v${versions.belLib}",
-            Protocol              : "com.github.MobileModule.DruidBle:protocollib:v${versions.belLib}",
-            AppLog                : "com.github.MobileModule.DruidBle:apploglib:v${versions.belLib}",
-            Blutooth              : "com.github.MobileModule.DruidBle:blutoothspplib:v${versions.belLib}",
-            Ble                   : "com.github.MobileModule.DruidBle:blespplib:v${versions.belLib}",
-            BleAct                : "com.github.MobileModule.DruidBle:bleactlib:v${versions.belLib}",
+            KtLib                 : "com.android.abase:ktlib:v${versions.ktlib}",
             //
             KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
             //
             Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
             ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
             FolderManager         : "com.github.MobileModule:FolderManager:v${versions.foldermanager}",
-            ImageViewer           : "com.github.MobileModule:ImageViewer:v${versions.imageviewer}",
+            ImageViewer           : "com.druid.image:imageviewer:v${versions.imageviewer}",
             Navigator             : "com.github.MobileModule:Navigator:v${versions.navigator}",
             ViewGuid              : "com.github.MobileModule:ViewGuid:v${versions.viewguid}",
             LocalLan              : "com.github.MobileModule.LocalLan:locallan:v${versions.locallan}",
-            SelectPhotos          : "com.github.MobileModule.LocalLan:selectphotos:v${versions.selectphotots}",
+            SelectPhotos          : "com.github.MobileModule.LocalLan:selectphotos:v${versions.locallan}",
             PickerView            : "com.github.MobileModule:PickerView:v${versions.pickerview}",
             Ander                 : "com.github.MobileModule:Ander:v${versions.ander}",
             MPChart               : "com.github.MobileModule:MPChart:v${versions.mpchart}",
             SnackBar              : "com.github.MobileModule:SnackBar:v${versions.snackbar}",
             NoHttp                : "com.github.MobileModule:NoHttp:v${versions.nohttp}",
-            DruidHttp             : "com.github.MobileModule:DruidHttp:v${versions.druidhttp}",
+            DruidHttp             : "com.druid.http:druidhttp:v${versions.druidhttp}",
             DruidZxing            : "com.github.MobileModule:Zxing:v${versions.druidzxing}",
             TTS                   : "com.github.MobileModule:MscLib:v${versions.tts}",
             RN                    : "com.facebook.react:react-native:+",
             RNJS                  : "org.webkit:android-jsc:+",
             Exifinterface         : "androidx.exifinterface:exifinterface:${versions.exifinterface}",
+            DaoLib                : "com.github.MobileModule:DruidDao:v${versions.daolib}",
+            BatteryTimeLine       : "com.github.MobileModule:batterytimeline:v${versions.batterytimeline}",
+            Router                : "com.druid.router:router:v${versions.router}",
+            BleChart              : "com.druid.chart:blerssiv1:v${versions.blechart}",
+            BleChartV2            : "com.druid.chart:blerssiv2:v${versions.blechartv2}",
+            BleCompass            : "com.druid.chart:blecompass:v${versions.blecompass}",
+            LeakCanary            : "com.squareup.leakcanary:leakcanary-android:${versions.leaks}",
+            Slidingtab            : "com.druid.bannar:slidingtab:v${versions.druidbanner}",
+            DruidViewPager2       : "com.druid.bannar:viewpager2:v${versions.druidbanner}",
+            StyleTheme            : "com.druid.style:theme:v${versions.styletheme}",
+            Widget                : "com.druid.control:widget:v${versions.widget}",
+            GreenDaoHelper        : "io.github.yuweiguocn:GreenDaoUpgradeHelper:v${versions.greendaohelper}",
+            TencentLocation       : "com.tencent.map.geolocation:TencentLocationSdk-openplatform:${versions.tencentlocation}"
     ]
 }
