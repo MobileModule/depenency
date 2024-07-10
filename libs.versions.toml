@@ -1,0 +1,285 @@
+[versions]
+agp = "8.3.1"
+#公共
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+recyclerview = "1.2.1"
+cardview = "1.0.0"
+interpolator = "1.0.0"
+annotation = "1.1.0"
+core = "1.3.0"
+coordinatorlayout = "1.1.0"
+constraintlayout = "2.1.4"
+viewpager = "1.0.0"
+viewpager2 = "1.0.0"
+cameraXCore = "1.0.0"
+cameraX2 = "1.0.0"
+cameraXLifeCycle = "1.0.0"
+cameraXView = "1.0.0-alpha25"
+greendao = "3.3.0"
+fragmentKtx = "1.3.1"
+navigationFragmentKtx = "2.3.5"
+navigationUiKtx = "2.3.5"
+leaks = "2.12"
+#
+okhttp3 = "3.12.3"
+okhttp3Interagtion = "4.9.0"
+okhttp3Connection = "3.12.3"
+retrofit2 = "2.9.0"
+retrofit2Gson = "2.0.0"
+retrofitUrlManager = "1.4.0"
+persistentCookieJar = "1.0.1"
+imageloader = "1.9.5"
+protobuf = "3.7.1"
+zxing = "3.1.0"
+gson = "2.8.9"
+fastjson = "1.2.8"
+picasso = "2.3.4"
+glide = "4.12.0"
+
+#kotlin
+kotlin = "1.9.20"
+coreKtx = "1.13.1"
+lifecycleRuntimeKtx = "2.6.2"
+lifecycleCommonJava8 = "2.6.2"
+lifecycleExtensions = "2.2.0"
+lifecycleViewmodelKtx = "2.6.2"
+lifecycleLiveDataKtx = "2.6.2"
+liveDataUnpeek = "4.4.1-beta1"
+
+#mapbox v9
+locationtech = "1.17.0"
+mapboxSdxV9 = "9.7.0"
+mapboxTurf = "5.4.1"
+mapboxLocation = "0.12.0"
+mapboxPluginAnnotation = "0.9.0"
+mapboxPluginMarkerView = "0.4.0"
+
+#mapbox v10
+mapboxSdxV10 = "10.13.0"
+mapboxJavaServices = "5.4.1"
+
+#google map
+googleMap = "18.1.0"
+googleLocation = "18.0.0"
+
+#druid
+appUpdate = "v1.0.7"
+dimenx2 = "v1.0.1"
+dimenx3 = "v1.0.1"
+mapview = "v2.3.4" #"1.5.2"[稳定版换key],//1.2.1[稳定版]
+sdcard = "v1.0.1"
+table = "v1.0.1"
+#mine
+freshView = "v1.0.5"
+timebarLib = "v1.0.8"
+qrcodeLib = "v1.0.2"
+socket = "v1.0.3"
+bleLib = "v3.0.0" #1.5.1->1.6.5->1.7.9->1.8.4
+blev3 = "v1.1.7"
+ktlib = "v1.0.6"
+ktmvvm = "v1.0.1"
+achart = "v1.0.1"
+colorpicker = "v1.0.1"
+foldermanager = "v1.0.1"
+imageviewer = "v1.0.2"
+navigator = "v1.0.1"
+viewguid = "v1.0.2"
+locallan = "v1.0.5"
+pickerview = "v1.0.1"
+ander = "v1.0.1"
+mpchart = "v1.0.1"
+snackbar = "v1.0.1"
+nohttp = "v1.0.1"
+druidhttp = "v1.2.5"
+druidzxing = "v1.0.2"
+tts = "v1.0.1"
+exifinterface = "v1.3.2"
+daolib = "v1.0.3"
+batterytimeline = "v1.0.1"
+router = "v1.0.7"
+blechart = "v1.0.4" #1.0.4
+blechartv2 = "v1.0.5" #1.0.3->1.0.4
+blecompass = "v1.0.2"
+druidbanner = "v1.0.1"
+styletheme = "v1.0.1"
+widget = "v1.0.1"
+greendaohelper = "v2.2.1"
+#other
+tencentlocation = "7.5.4.3"
+nineoldandroids = "2.4.0"
+cube = "1.0.2"
+videoPlayer = "6.2.4"
+seekBar = "1.0.6"
+gifImage = "1.2.27"
+mp4Parse = "1.1.21"
+
+[libraries]
+#公共库
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+junit-test = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+test-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+annotations = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+core = { group = "androidx.core", name = "core", version.ref = "core" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+coordinatorlayout = { group = "androidx.coordinatorlayout", name = "coordinatorlayout", version.ref = "coordinatorlayout" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+interpolator = { group = "androidx.interpolator", name = "interpolator", version.ref = "interpolator" }
+cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
+viewpager = { group = "androidx.viewpager", name = "viewpager", version.ref = "viewpager" }
+viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewpager2" }
+camera-core = { group = "androidx.camera", name = "camera-core", version.ref = "cameraXCore" }
+camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "cameraX2" }
+camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraXLifeCycle" }
+camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "cameraXView" }
+fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtx" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp3" }
+okhttp3-interagtion = { group = "com.github.bumptech.glide", name = "okhttp3-integration", version.ref = "okhttp3Interagtion" }
+okhttp3-connection = { group = "com.squareup.okhttp3", name = "okhttp-urlconnection", version.ref = "okhttp3Connection" }
+retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit2" }
+retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit2Gson" }
+retrofit-url-manager = { group = "me.jessyan", name = "retrofit-url-manager", version.ref = "retrofitUrlManager" }
+persistent-cookiejar = { group = "com.github.franmontiel", name = "PersistentCookieJar", version.ref = "persistentCookieJar" }
+imageloader = { group = "com.nostra13.universalimageloader", name = "universal-image-loader", version.ref = "imageloader" }
+protobuf = { group = "com.google.protobuf", name = "protobuf-java", version.ref = "protobuf" }
+zxing = { group = "com.google.zxing", name = "core", version.ref = "zxing" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+fastjson = { group = "com.alibaba", name = "fastjson", version.ref = "fastjson" }
+picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+greendao = { group = "org.greenrobo", name = "greendao", version.ref = "greendao" }
+leakcanary = { group = "com.squareup.leakcanary", name = "leakcanary-android", version.ref = "leaks" }
+
+#kotlin
+kotlin = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk7", version.ref = "kotlin" }
+lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+lifecycle-common-java8 = { group = "androidx.lifecycle", name = "lifecycle-common-java8", version.ref = "lifecycleCommonJava8" }
+lifecycle-extensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycleExtensions" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLiveDataKtx" }
+livedata-unpeek = { group = "com.kunminx.archi", name = "unpeek-livedata", version.ref = "liveDataUnpeek" }
+
+# mapbox
+locationtech = { group = "org.locationtech.jts", name = "jts-core", version.ref = "locationtech" }
+mapbox-v9 = { group = "com.mapbox.mapboxsdk", name = "mapbox-android-sdk", version.ref = "mapboxSdxV9" }
+mapbox-turf = { group = "com.mapbox.mapboxsdk", name = "mapbox-sdk-turf", version.ref = "mapboxTurf" }
+mapbox-location = { group = "com.mapbox.mapboxsdk", name = "mapbox-android-plugin-localization-v9", version.ref = "mapboxLocation" }
+mapbox-plugin-annotation = { group = "com.mapbox.mapboxsdk", name = "mapbox-android-plugin-annotation-v9", version.ref = "mapboxPluginAnnotation" }
+mapbox-plugin-markerview = { group = "com.mapbox.mapboxsdk", name = "mapbox-android-plugin-markerview-v9", version.ref = "mapboxPluginMarkerView" }
+mapbox-v10 = { group = "com.mapbox.maps", name = "android", version.ref = "mapboxSdxV10" }
+
+# google地图
+google-map = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "googleMap" }
+google-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "googleLocation" }
+
+# 德鲁伊地图公共库
+mapcore = { group = "com.druid.map", name = "coremap", version.ref = "mapview" }
+mapbox = { group = "com.druid.map", name = "mapboxkt", version.ref = "mapview" }
+mapgoogle = { group = "com.druid.map", name = "mapgoogle", version.ref = "mapview" }
+googleutils = { group = "com.druid.map", name = "google-utils", version.ref = "mapview" }
+
+#timebar
+timecore = { group = "com.druid.mark", name = "timecore", version.ref = "timebarLib" }
+timebar = { group = "com.druid.mark", name = "timebar", version.ref = "timebarLib" }
+timechart = { group = "com.druid.mark", name = "timechart", version.ref = "timebarLib" }
+timepaint = { group = "com.druid.mark", name = "timepaint", version.ref = "timebarLib" }
+
+#opencv
+qrcode-opencv = { group = "com.druid.qrcode", name = "opencv", version.ref = "qrcodeLib" }
+qrcode-lib = { group = "com.druid.qrcode", name = "qrcode", version.ref = "qrcodeLib" }
+qrcode-scanning = { group = "com.druid.qrcode", name = "qrcode-scanning", version.ref = "qrcodeLib" }
+qrcode-camera = { group = "com.druid.qrcode", name = "camera", version.ref = "qrcodeLib" }
+
+#socket
+socket-client = { group = "com.druid.socket", name = "socket-client", version.ref = "socket" }
+socket-common = { group = "com.druid.socket", name = "socket-common-interface", version.ref = "socket" }
+socket-core = { group = "com.druid.socket", name = "socket-core", version.ref = "socket" }
+
+#v2
+ota = { group = "com.druid.intelink", name = "ota", version.ref = "bleLib" }
+nordic = { group = "com.druid.intelink", name = "nordic-ble", version.ref = "bleLib" }
+scanner = { group = "com.druid.intelink", name = "scanner", version.ref = "bleLib" }
+protocol = { group = "com.druid.intelink", name = "protocol", version.ref = "bleLib" }
+applog = { group = "com.druid.intelink", name = "applog", version.ref = "bleLib" }
+blutooth = { group = "com.druid.intelink", name = "bluetoothspp", version.ref = "bleLib" }
+ble = { group = "com.druid.intelink", name = "blespp", version.ref = "bleLib" }
+bleact = { group = "com.druid.intelink", name = "bleact", version.ref = "bleLib" }
+
+#v3
+intelinkv3-access = { group = "com.druid.intelinkv3", name = "blev3-access", version.ref = "blev3" }
+intelinkv3-application = { group = "com.druid.intelinkv3", name = "blev3-application", version.ref = "blev3" }
+intelinkv3-communication = { group = "com.druid.intelinkv3", name = "blev3-communication", version.ref = "blev3" }
+intelinkv3-core = { group = "com.druid.intelinkv3", name = "blev3-core", version.ref = "blev3" }
+intelinkv3-extra = { group = "com.druid.intelinkv3", name = "blev3-extra", version.ref = "blev3" }
+intelinkv3-log = { group = "com.druid.intelinkv3", name = "blev3-log", version.ref = "blev3" }
+intelinkv3-records = { group = "com.druid.intelinkv3", name = "blev3-records", version.ref = "blev3" }
+intelinkv3-protocol = { group = "com.druid.intelinkv3", name = "blev3-protocol", version.ref = "blev3" }
+intelinkv3-util = { group = "com.druid.intelinkv3", name = "blev3-util", version.ref = "blev3" }
+
+# kotlin lib
+ktlib = { group = "com.android.abase", name = "ktlib", version.ref = "ktlib" }
+ktmvvm = { group = "com.github.MobileModule", name = "ktlib", version.ref = "ktmvvm" }
+
+#Druid公共库
+#jitpacck
+appupdate = { group = "com.github.MobileModule", name = "AppUpdater", version.ref = "appUpdate" }
+dimenx2 = { group = "com.github.MobileModule", name = "DruidDimenX2", version.ref = "dimenx2" }
+dimenx3 = { group = "com.github.MobileModule", name = "DruidDimenX3", version.ref = "dimenx3" }
+sdcard = { group = "com.github.MobileModule", name = "SDCard", version.ref = "sdcard" }
+tableview = { group = "com.github.MobileModule", name = "TableView", version.ref = "table" }
+freshview = { group = "com.github.MobileModule.RefreshView", name = "refreshlib", version.ref = "freshView" }
+swipe-recyclerview = { group = "com.github.MobileModule.RefreshView", name = "recyclerview-swipelib", version.ref = "freshView" }
+achart = { group = "com.github.MobileModule", name = "Achart", version.ref = "achart" }
+colorpicker = { group = "com.github.MobileModule", name = "ColorPicker", version.ref = "colorpicker" }
+foldermanager = { group = "com.github.MobileModule", name = "FolderManager", version.ref = "foldermanager" }
+imageviewer = { group = "com.druid.image", name = "imageviewer", version.ref = "imageviewer" }
+navigator = { group = "com.github.MobileModule", name = "Navigator", version.ref = "navigator" }
+viewguid = { group = "com.github.MobileModule", name = "ViewGuid", version.ref = "viewguid" }
+locallan = { group = "com.github.MobileModule.LocalLan", name = "locallan", version.ref = "locallan" }
+selectphotos = { group = "com.github.MobileModule.LocalLan", name = "selectphotos", version.ref = "locallan" }
+pickerview = { group = "com.github.MobileModule", name = "PickerView", version.ref = "pickerview" }
+ander = { group = "com.github.MobileModule", name = "Ander", version.ref = "ander" }
+mpchart = { group = "com.github.MobileModule", name = "MPChart", version.ref = "mpchart" }
+anackBar = { group = "com.github.MobileModule", name = "SnackBar", version.ref = "snackbar" }
+noHttp = { group = "com.github.MobileModule", name = "NoHttp", version.ref = "nohttp" }
+druidzxing = { group = "com.github.MobileModule", name = "Zxing", version.ref = "druidzxing" }
+tts = { group = "com.github.MobileModule", name = "MscLib", version.ref = "tts" }
+battery-timeline = { group = "com.github.MobileModule", name = "batterytimeline", version.ref = "batterytimeline" }
+
+#Nexus私有
+druidhttp = { group = "com.druid.http", name = "druidhttp", version.ref = "druidhttp" }
+router = { group = "com.druid.router", name = "router", version.ref = "router" }
+blechart = { group = "com.druid.chart", name = "blerssiv1", version.ref = "blechart" }
+blechartv2 = { group = "com.druid.chart", name = "blerssiv2", version.ref = "blechartv2" }
+blecompass = { group = "com.druid.chart", name = "blecompass", version.ref = "blecompass" }
+slidingtab = { group = "com.druid.bannar", name = "slidingtab", version.ref = "druidbanner" }
+druidviewpager2 = { group = "com.druid.bannar", name = "viewpager2", version.ref = "druidbanner" }
+styletheme = { group = "com.druid.style", name = "theme", version.ref = "styletheme" }
+widget = { group = "com.druid.control", name = "widget", version.ref = "widget" }
+
+#其他公共库
+greendaohelper = { group = "io.github.yuweiguocn", name = "GreenDaoUpgradeHelper", version.ref = "greendaohelper" }
+mp4parse = { group = "com.googlecode.mp4parser", name = "isoparser", version.ref = "mp4Parse" }
+exifinterface = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exifinterface" }
+daolib = { group = "androidx.exifinterface", name = "DruidDao", version.ref = "daolib" }
+nineoldandroids = { group = "com.nineoldandroids", name = "library", version.ref = "nineoldandroids" }
+cube = { group = "in.srain.cube", name = "clog", version.ref = "cube" }
+videoplayer = { group = "cn.jzvd", name = "jiaozivideoplayer", version.ref = "videoPlayer" }
+seekbar = { group = "com.zhouyou", name = "signseekbar", version.ref = "seekBar" }
+gifimage = { group = "pl.droidsonroids.gif", name = "android-gif-drawable", version.ref = "gifImage" }
+#rn = { group = "com.facebook.react", name = "react-native", version.ref = "+" }
+#rn-js = { group = "org.webkit", name = "android-jsc", version.ref = "+" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+
