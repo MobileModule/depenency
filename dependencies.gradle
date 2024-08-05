@@ -38,7 +38,7 @@ ext {
             lifecycleLiveDataKtx  : "2.6.2",
             liveDataUnpeek        : "4.4.1-beta1",
             //
-            okhttp3               : "3.14.9",
+            okhttp3               : "4.12.0",//"3.14.9",
             okhttp3Interagtion    : "4.9.0",
             okhttp3Connection     : "3.14.9",
             retrofit2             : "2.11.0",
@@ -85,9 +85,7 @@ ext {
             bleLib                : "1.8.9.4",//1.5.1->1.6.5->1.8.8
             blev3                 : "1.1.5",
             //
-            ktlib                 : "1.0.6",
-            //
-            ktmvvm                : "1.0.1",
+            ktlib                 : "1.0.8",
             //
             achart                : "1.0.1",
             colorpicker           : "1.0.1",
@@ -118,7 +116,8 @@ ext {
             tencentlocation       : "7.5.4.3",
             loadsir               : "1.3.8",
             adapterhelper         : "4.1.4",
-            swiperefreshlayout    : "1.1.0"
+            swiperefreshlayout    : "1.1.0",
+            sqlitektx             : "2.3.0"
     ]
 
     dependenciesList = [
@@ -233,8 +232,6 @@ ext {
             //
             KtLib                 : "com.android.abase:ktlib:v${versions.ktlib}",
             //
-            KtMVVM                : "com.github.MobileModule:Ktlib:v${versions.ktmvvm}",
-            //
             Achart                : "com.github.MobileModule:Achart:v${versions.achart}",
             ColorPicker           : "com.github.MobileModule:ColorPicker:v${versions.colorpicker}",
             FolderManager         : "com.github.MobileModule:FolderManager:v${versions.foldermanager}",
@@ -267,8 +264,11 @@ ext {
             Widget                : "com.druid.control:widget:v${versions.widget}",
             GreenDaoHelper        : "io.github.yuweiguocn:GreenDaoUpgradeHelper:v${versions.greendaohelper}",
             TencentLocation       : "com.tencent.map.geolocation:TencentLocationSdk-openplatform:${versions.tencentlocation}",
-            LoadSir               :  "com.kingja.loadsir:loadsir:${versions.loadsir}",
+            LoadSir               : "com.kingja.loadsir:loadsir:${versions.loadsir}",
             BaseRecyclerViewAdapterHelper : "io.github.cymchad:BaseRecyclerViewAdapterHelper4:${versions.adapterhelper}",
-            SwiperefreshLayout    :  "androidx.swiperefreshlayout:swiperefreshlayout:${versions.swiperefreshlayout}"
+            SwiperefreshLayout    : "androidx.swiperefreshlayout:swiperefreshlayout:${versions.swiperefreshlayout}",
+            KotlinReflect         : "org.jetbrains.kotlin:kotlin-reflect:${versions.kotlin}",
+            KotlinStdlib          : "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}",
+            SqliteKtx            : "androidx.sqlite:sqlite-ktx:${versions.sqlitektx}"
     ]
 }
