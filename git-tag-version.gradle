@@ -25,3 +25,17 @@ ext.getVersionNameFromTags = { ->
         return null
     }
 }
+
+ext.getCommitHashPre6 = { ->
+    try {
+        def stdout = new ByteArrayOutputStream()
+        exec {
+            commandLine 'git', 'rev-parse', '--short=6', 'HEAD'
+            standardOutput = stdout
+        }
+        return stdout.toString().trim()
+    } catch (Exception e) {
+        println "Failed to get git commit hash: ${e.message}"
+        return ""
+    }
+}
