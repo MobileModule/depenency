@@ -30,7 +30,7 @@ ext.getCommitHashPre6 = { ->
     try {
         def stdout = new ByteArrayOutputStream()
         exec {
-            commandLine 'git', 'rev-parse', '--short=6', 'HEAD'
+            commandLine 'git', 'rev-parse', '--short=7', 'HEAD'
             standardOutput = stdout
         }
         return stdout.toString().trim()
