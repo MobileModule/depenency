@@ -69,7 +69,7 @@ ext {
             appUpdate             : "1.0.9",
             dimenx2               : "1.0.3",
             dimenx3               : "1.0.3",
-            mapview               : "2.4.7",//"1.5.2"[稳定版换key],//1.2.1[稳定版]
+            mapview               : "2.4.7",//2.4.6.1
             sdcard                : "1.0.2",
             table                 : "1.0.2",
 
@@ -82,7 +82,7 @@ ext {
             //
             socket                : "1.0.3",
             //
-            bleLib                : "1.8.9.5",//1.5.1->1.6.5->1.8.8
+            bleLib                : "1.8.9.6",//1.5.1->1.6.5->1.8.8
             blev3                 : "1.1.5",
             //
             ktlib                 : "1.1.0",
@@ -93,7 +93,7 @@ ext {
             imageviewer           : "1.0.2",
             navigator             : "1.0.2",
             viewguid              : "1.0.3",
-            locallan              : "1.0.8",
+            locallan              : "1.0.9",
             pickerview            : "1.0.2",
             ander                 : "1.0.2",
             mpchart               : "1.0.2",
