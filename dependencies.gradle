@@ -29,7 +29,7 @@ ext {
             navigationUiKtx       : "2.3.5",
             leaks                 : "2.12",
             //kotlin
-            kotlin                : "1.9.20",
+            kotlin                : "2.0.20",//1.9.20
             //lifecycle
             lifecycleRuntimeKtx   : "2.6.2",
             lifecycleCommonJava8  : "2.6.2",
@@ -119,7 +119,8 @@ ext {
             swiperefreshlayout    : "1.1.0",
             sqlitektx             : "2.3.0",
             photoview             : "2.3.0",
-            scaleimageview        : "3.10.0"
+            scaleimageview        : "3.10.0",
+            wcdb                  : "2.1.4",
     ]
 
     dependenciesList = [
@@ -273,6 +274,9 @@ ext {
             KotlinStdlib                 : "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}",
             SqliteKtx                    : "androidx.sqlite:sqlite-ktx:${versions.sqlitektx}",
             ScaleImageView               : "com.davemorrissey.labs:subsampling-scale-image-view:${versions.scaleimageview}",
-            PhotoView                    : "com.github.chrisbanes:PhotoView:${versions.photoview}"
+            PhotoView                    : "com.github.chrisbanes:PhotoView:${versions.photoview}",
+            WCDB                         : "com.tencent.wcdb:main:${versions.wcdb}",
+            WCDBAnnotation               : "com.tencent.wcdb:annotation:${versions.wcdb}",
+            WCDBCompiler                 : "com.tencent.wcdb:compiler:${versions.wcdb}"
     ]
 }
