@@ -1,6 +1,6 @@
 ext {
     androidVersions = [
-            minSdkVersion    : 21,
+            minSdkVersion    : 24,
             targetSdkVersion : 34,
             buildToolsVersion: "30.0.3",
             compileSdkVersion: 34,
@@ -29,7 +29,7 @@ ext {
             navigationUiKtx       : "2.3.5",
             leaks                 : "2.12",
             //kotlin
-            kotlin                : "2.0.20",//1.9.20
+            kotlin                : "2.0.20",//1.9.20，2.0.20
             //lifecycle
             lifecycleRuntimeKtx   : "2.6.2",
             lifecycleCommonJava8  : "2.6.2",
