@@ -1,6 +1,6 @@
 ext {
     androidVersions = [
-            minSdkVersion    : 24,
+            minSdkVersion    : 21,
             targetSdkVersion : 34,
             buildToolsVersion: "30.0.3",
             compileSdkVersion: 34,
@@ -121,6 +121,7 @@ ext {
             photoview             : "2.3.0",
             scaleimageview        : "3.10.0",
             wcdb                  : "2.1.4",
+            gpslocation           : "1.0.2"
     ]
 
     dependenciesList = [
@@ -277,6 +278,9 @@ ext {
             PhotoView                    : "com.github.chrisbanes:PhotoView:${versions.photoview}",
             WCDB                         : "com.tencent.wcdb:main:${versions.wcdb}",
             WCDBAnnotation               : "com.tencent.wcdb:annotation:${versions.wcdb}",
-            WCDBCompiler                 : "com.tencent.wcdb:compiler:${versions.wcdb}"
+            WCDBCompiler                 : "com.tencent.wcdb:compiler:${versions.wcdb}",
+            LocationCore                 : "com.gps.location:location:v${versions.gpslocation}",
+            LocationGoogle               : "com.gps.location:google:v${versions.gpslocation}",
+            LocationTencent              : "com.gps.location:tencent:v${versions.gpslocation}",
     ]
 }
