@@ -69,7 +69,7 @@ ext {
             appUpdate             : "1.0.9",
             dimenx2               : "1.0.3",
             dimenx3               : "1.0.3",
-            mapview               : "2.4.7",//2.4.6.1,2.4.7
+            mapview               : "2.4.8",//2.4.6.1,2.4.7
             sdcard                : "1.0.2",
             table                 : "1.0.2",
 
