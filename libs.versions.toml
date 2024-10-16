@@ -49,7 +49,7 @@ qrcodeLib = "v1.0.2"
 #socket
 socket = "v1.0.3"
 #intekink-v2
-bleLib = "v1.9.1"#1.8.9.6
+bleLib = "v1.9.2"#1.8.9.6
 #intelink-v3
 blev3 = "v1.1.5"
 #http
